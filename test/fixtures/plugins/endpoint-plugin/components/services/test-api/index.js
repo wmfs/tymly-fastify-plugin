@@ -2,9 +2,9 @@ class TestApiEndPoint {
   boot (options, callback) {
     const { app } = options.bootedServices.server
 
-    // todo: const jwtCheck = options.bootedServices.jwtAuth.jwtCheck
+    const router = async app => {
+      const opts = { preValidation: [ app.jwtCheck ] }
 
-    const router = async (app, opts) => {
       app.get('/', opts, getTestResponse)
     }
 
