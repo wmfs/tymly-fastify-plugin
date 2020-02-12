@@ -3,7 +3,7 @@ class TestApiEndPoint {
     const { app } = options.bootedServices.server
 
     const router = async app => {
-      const opts = { preValidation: [ app.jwtCheck ] }
+      const opts = { preValidation: [app.jwtCheck] }
 
       app.get('/', opts, getTestResponse)
     }
