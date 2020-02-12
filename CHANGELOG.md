@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.0.0...v1.1.0) (2020-02-12)
+
+
+### ✨ Features
+
+* use preValidation to specify which routes to protect ([8701657](https://github.com/wmfs/tymly-fastify-plugin/commit/8701657e5f97db709912f238c8ec63352b83c78e))
+
+
+### 💎 Styles
+
+* standard --fix ([9d12b04](https://github.com/wmfs/tymly-fastify-plugin/commit/9d12b043a8dda98ca40cebe75533b982cbb90701))
+
 # 1.0.0 (2020-02-12)
 
 
