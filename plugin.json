@@ -1,0 +1,11 @@
+{
+  "name": "fastify",
+  "version": "1.33.0",
+  "label": "Fastify",
+  "author": "Meena Hoda",
+  "organisation": "West Midlands Fire Service",
+  "description": "Tymly plugin to expose Tymly via an Fastify web app",
+  "categories": [
+    "fastify"
+  ]
+}

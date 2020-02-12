@@ -1,0 +1,20 @@
+{
+  "Comment": "Gets from an arbitrary rest API.",
+  "name": "Get from rest api",
+  "version": "1.0",
+  "categories": [],
+  "instigators": [],
+  "StartAt": "GetDataFromRestApi",
+  "States": {
+    "GetDataFromRestApi": {
+      "Type": "Task",
+      "Resource": "module:getDataFromRestApi",
+      "ResourceConfig" : {
+        "templateUrlRegistryKey": "testApiUrl",
+        "authTokenRegistryKey": "testToken",
+        "namespace": "tymlyTest"
+      },
+      "End": true
+    }
+  }
+}

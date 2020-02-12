@@ -1,0 +1,30 @@
+{
+  "Comment": "Read a post in its entirety",
+  "version": "1.0",
+  "instigators": [
+    "user"
+  ],
+  "categories": [
+    "website",
+    "posts"
+  ],
+  "StartAt": "AwaitingHumanInput",
+  "States": {
+    "AwaitingHumanInput": {
+      "Type": "Task",
+      "Resource": "module:awaitingHumanInput",
+      "ResourceConfig": {
+        "formId": "readForm"
+      },
+      "End": true
+    }
+  },
+  "restrictions": [
+    {
+      "roleId": "$everyone",
+      "allows": [
+        "create"
+      ]
+    }
+  ]
+}

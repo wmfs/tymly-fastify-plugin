@@ -1,0 +1,21 @@
+{
+  "Comment": "Take it all down... NOW!!!",
+  "version": "1.0",
+  "instigators": [
+    "user"
+  ],
+  "categories": [
+    "website"
+  ],
+  "StartAt": "AwaitingHumanInput",
+  "States": {
+    "AwaitingHumanInput": {
+      "Type": "Task",
+      "Resource": "module:awaitingHumanInput",
+      "ResourceConfig": {
+        "formId": "purgeForm"
+      },
+      "End": true
+    }
+  }
+}
