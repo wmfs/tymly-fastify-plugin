@@ -1,5 +1,5 @@
 class TestApiEndPoint {
-  boot (options, callback) {
+  boot (options) {
     const { app } = options.bootedServices.server
 
     const router = async app => {
@@ -9,8 +9,6 @@ class TestApiEndPoint {
     }
 
     app.register(router, { prefix: '/test-endpoint' })
-
-    callback(null)
   }
 }
 
