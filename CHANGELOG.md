@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.1.1...v1.2.0) (2020-05-13)
+
+
+### ✨ Features
+
+* specify host to listen on ([1e32f28](https://github.com/wmfs/tymly-fastify-plugin/commit/1e32f28ceeb67fb8db48a296f2efe6a81c08da02))
+
 ## [1.1.1](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.1.0...v1.1.1) (2020-05-13)
 
 
