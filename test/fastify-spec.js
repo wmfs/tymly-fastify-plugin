@@ -1,6 +1,7 @@
 /* eslint-env mocha */
 
 const PORT = 3003
+const HOST = '0.0.0.0'
 const jwt = require('jsonwebtoken')
 const axios = require('axios')
 const expect = require('chai').expect
@@ -87,6 +88,7 @@ describe('Simple tests', function () {
     it('start app', done => {
       server.listen(
         PORT,
+        HOST,
         () => {
           console.log('\n')
           console.log(`Example app listening on port ${PORT}!\n`)
