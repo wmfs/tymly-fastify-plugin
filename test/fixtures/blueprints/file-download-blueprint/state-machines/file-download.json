@@ -6,9 +6,10 @@
       "Type": "Task",
       "Resource": "module:fileDownloading",
       "Parameters": {
-        "filePath.$": "$.testPath",
-        "deleteAfterDownload": false
+        "filePath.$": "$.filePath",
+        "deleteAfterDownload.$": "$.deleteAfterwards"
       },
+      "ResultPath": "$.downloadPath",
       "End": true
     }
   }

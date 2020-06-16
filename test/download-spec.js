@@ -21,7 +21,7 @@ describe('Download tests', function () {
   const testFile = path.join(__dirname, 'fixtures', 'download', 'fixture.txt')
   const testCopyFile = path.join(__dirname, 'fixtures', 'download', 'copy.txt')
 
-  let tymlyService, downloadService
+  let tymlyService, downloadService, statebox
   let downloadPath
 
   before('start tymly', async () => {
@@ -31,7 +31,7 @@ describe('Download tests', function () {
           path.resolve(__dirname, './../lib')
         ],
         blueprintPaths: [
-          path.resolve(__dirname, './fixtures/blueprints/file-download-blueprint'),
+          path.resolve(__dirname, './fixtures/blueprints/file-download-blueprint')
         ],
         config: {
           staticRootDir: path.resolve(__dirname, './output'),
@@ -42,76 +42,140 @@ describe('Download tests', function () {
 
     tymlyService = tymlyServices.tymly
     downloadService = tymlyServices.fileDownloading
+    statebox = tymlyServices.statebox
     const server = tymlyServices.server
     server.listen(PORT, HOST, () => {
       console.log(`Listening on ${PORT}`)
     })
   })
 
-  describe('download file', () => {
-    it('add a file for download', () => {
-      downloadPath = downloadService.addDownloadFile(testFile, false)
+  describe('service tests', () => {
+    describe('download file', () => {
+      it('add a file for download', () => {
+        downloadPath = downloadService.addDownloadFile(testFile, false)
 
-      expect(downloadPath).to.include('/download/')
+        expect(downloadPath).to.include('/download/')
+      })
+
+      it('download the file', async () => {
+        await expect200(downloadPath, testFile)
+      })
+
+      it('file is not deleted', () => {
+        const fileFound = fs.existsSync(testFile)
+        expect(fileFound).to.eql(true)
+      })
     })
 
-    it('download the file', async () => {
-      await expect200(downloadPath, testFile)
+    describe('download file, delete afterwards', () => {
+      before('copy file', async () => {
+        await fsp.copyFile(testFile, testCopyFile)
+      })
+
+      it('add file for download, mark as deletable', () => {
+        downloadPath = downloadService.addDownloadFile(testCopyFile, true)
+
+        expect(downloadPath).to.include('/download/')
+      })
+
+      it('download the file', async () => {
+        await expect200(downloadPath, testCopyFile)
+      })
+
+      it('file is deleted', () => {
+        const fileFound = fs.existsSync(testCopyFile)
+
+        expect(fileFound).to.eql(false)
+      })
     })
 
-    it('file is not deleted', () => {
-      const fileFound = fs.existsSync(testFile)
-      expect(fileFound).to.eql(true)
-    })
-  })
+    describe('download keys can only be used once', () => {
+      it('add a file for download', () => {
+        downloadPath = downloadService.addDownloadFile(testFile, false)
 
-  describe('download file, delete afterwards', () => {
-    before('copy file', async () => {
-      await fsp.copyFile(testFile, testCopyFile)
-    })
+        expect(downloadPath).to.include('/download/')
+      })
 
-    it('add file for download, mark as deletable', () => {
-      downloadPath = downloadService.addDownloadFile(testCopyFile, true)
+      it('download the file', async () => {
+        await expect200(downloadPath, testFile)
+      })
 
-      expect(downloadPath).to.include('/download/')
-    })
-
-    it('download the file', async () => {
-      await expect200(downloadPath, testCopyFile)
+      it('download again, get 404', async () => {
+        await expect404(downloadPath)
+      })
     })
 
-    it('file is deleted', () => {
-      const fileFound = fs.existsSync(testCopyFile)
-
-      expect(fileFound).to.eql(false)
+    it('bad key gives 404', async () => {
+      await expect404('/download/nonsense')
     })
-  })
+  }) // service
 
-  describe('download keys can only be used once', () => {
-    it('add a file for download', () => {
-      downloadPath = downloadService.addDownloadFile(testFile, false)
+  describe('state resource tests', () => {
+    describe('download a file', () => {
+      it('add a file for download', async () => {
+        const context = await statebox.startExecution(
+          {
+            filePath: testFile,
+            deleteAfterwards: false
+          },
+          'tymlyTest_fileDownload',
+          {
+            sendResponse: 'COMPLETE'
+          }
+        )
 
-      expect(downloadPath).to.include('/download/')
+        downloadPath = context.ctx.downloadPath
+        expect(downloadPath).to.include('/download/')
+      })
+
+      it('download the file', async () => {
+        await expect200(downloadPath, testFile)
+      })
+
+      it('file is not deleted', () => {
+        const fileFound = fs.existsSync(testFile)
+        expect(fileFound).to.eql(true)
+      })
     })
 
-    it('download the file', async () => {
-      await expect200(downloadPath, testFile)
-    })
+    describe('download file, delete afterwards', () => {
+      before('copy file', async () => {
+        await fsp.copyFile(testFile, testCopyFile)
+      })
 
-    it('download again, get 404', async () => {
-      await expect404(downloadPath)
-    })
-  })
+      it('add file for download, mark as deletable', async () => {
+        const context = await statebox.startExecution(
+          {
+            filePath: testCopyFile,
+            deleteAfterwards: true
+          },
+          'tymlyTest_fileDownload',
+          {
+            sendResponse: 'COMPLETE'
+          }
+        )
 
-  it('bad key gives 404', async () => {
-    await expect404('/download/nonsense')
+        downloadPath = context.ctx.downloadPath
+        expect(downloadPath).to.include('/download/')
+      })
+
+      it('download the file', async () => {
+        await expect200(downloadPath, testCopyFile)
+      })
+
+      it('file is deleted', () => {
+        const fileFound = fs.existsSync(testCopyFile)
+
+        expect(fileFound).to.eql(false)
+      })
+    })
   })
 
   after('shutdown tymly', async () => {
     await tymlyService.shutdown()
   })
 
-  async function expect200(downloadPath, filePath) {
+  async function expect200 (downloadPath, filePath) {
     const testFileContents = await fsp.readFile(filePath, 'utf8')
 
     const download = await axios({
@@ -123,7 +187,7 @@ describe('Download tests', function () {
     expect(download.data).to.eql(testFileContents)
   } // expect200
 
-  async function expect404(downloadPath) {
+  async function expect404 (downloadPath) {
     let download = null
     try {
       await axios({
@@ -141,5 +205,4 @@ describe('Download tests', function () {
     expect(download.isAxiosError).to.eql(true)
     expect(download.response.status).to.eql(404)
   } // expect404
-
 })
