@@ -7,6 +7,7 @@ chai.use(require('chai-string'))
 const expect = chai.expect
 const tymly = require('@wmfs/tymly')
 const path = require('path')
+const fsp = require('fs').promises
 const axios = require('axios')
 
 describe('Download tests', function () {
@@ -31,7 +32,7 @@ describe('Download tests', function () {
         ],
         config: {
           staticRootDir: path.resolve(__dirname, './output'),
-          auth: { secret, audience },
+          auth: { secret, audience }
         }
       }
     )
@@ -42,22 +43,23 @@ describe('Download tests', function () {
     server.listen(PORT, HOST, () => {
       console.log(`Listening on ${PORT}`)
     })
-
   })
 
-  it ('add a file for download', () => {
+  it('add a file for download', () => {
     downloadPath = downloadService.addDownloadFile(testFile)
-
 
     expect(downloadPath).to.include('/download/')
   })
 
-  it ('download the file', async () => {
+  it('download the file', async () => {
     const download = await axios({
       url: baseUrl + downloadPath,
       method: 'GET'
     })
     expect(download.status).to.eql(200)
+
+    const testFileContents = await fsp.readFile(testFile, 'utf8')
+    expect(download.data).to.eql(testFileContents)
   })
 
   after('shutdown tymly', async () => {
