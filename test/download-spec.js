@@ -7,7 +7,8 @@ chai.use(require('chai-string'))
 const expect = chai.expect
 const tymly = require('@wmfs/tymly')
 const path = require('path')
-const fsp = require('fs').promises
+const fs = require('fs')
+const fsp = fs.promises
 const axios = require('axios')
 
 describe('Download tests', function () {
@@ -18,6 +19,7 @@ describe('Download tests', function () {
   const baseUrl = `http://localhost:${PORT}`
 
   const testFile = path.join(__dirname, 'fixtures', 'download', 'fixture.txt')
+  const testCopyFile = path.join(__dirname, 'fixtures', 'download', 'copy.txt')
 
   let tymlyService, downloadService
   let downloadPath
@@ -45,21 +47,60 @@ describe('Download tests', function () {
     })
   })
 
-  it('add a file for download', () => {
-    downloadPath = downloadService.addDownloadFile(testFile)
+  describe('download file', () => {
+    it('add a file for download', () => {
+      downloadPath = downloadService.addDownloadFile(testFile, false)
 
-    expect(downloadPath).to.include('/download/')
+      expect(downloadPath).to.include('/download/')
+    })
+
+    it('download the file', async () => {
+      const testFileContents = await fsp.readFile(testFile, 'utf8')
+
+      const download = await axios({
+        url: baseUrl + downloadPath,
+        method: 'GET'
+      })
+
+      expect(download.status).to.eql(200)
+      expect(download.data).to.eql(testFileContents)
+    })
+
+    it('file is not deleted', () => {
+      const fileFound = fs.existsSync(testFile)
+
+      expect(fileFound).to.eql(true)
+    })
   })
 
-  it('download the file', async () => {
-    const download = await axios({
-      url: baseUrl + downloadPath,
-      method: 'GET'
+  describe('download file, delete afterwards', () => {
+    before('copy file', async () => {
+      await fsp.copyFile(testFile, testCopyFile)
     })
-    expect(download.status).to.eql(200)
 
-    const testFileContents = await fsp.readFile(testFile, 'utf8')
-    expect(download.data).to.eql(testFileContents)
+    it('add file for download, mark as deletable', () => {
+      downloadPath = downloadService.addDownloadFile(testCopyFile, true)
+
+      expect(downloadPath).to.include('/download/')
+    })
+
+    it('download the file', async () => {
+      const testFileContents = await fsp.readFile(testCopyFile, 'utf8')
+
+      const download = await axios({
+        url: baseUrl + downloadPath,
+        method: 'GET'
+      })
+
+      expect(download.status).to.eql(200)
+      expect(download.data).to.eql(testFileContents)
+    })
+
+    it('file is deleted', () => {
+      const fileFound = fs.existsSync(testCopyFile)
+
+      expect(fileFound).to.eql(false)
+    })
   })
 
   it('bad key gives 404', async () => {
