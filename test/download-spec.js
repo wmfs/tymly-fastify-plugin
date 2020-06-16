@@ -31,6 +31,7 @@ describe('Download tests', function () {
           path.resolve(__dirname, './../lib')
         ],
         blueprintPaths: [
+          path.resolve(__dirname, './fixtures/blueprints/file-download-blueprint'),
         ],
         config: {
           staticRootDir: path.resolve(__dirname, './output'),
