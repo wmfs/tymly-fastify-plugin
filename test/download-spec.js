@@ -55,20 +55,11 @@ describe('Download tests', function () {
     })
 
     it('download the file', async () => {
-      const testFileContents = await fsp.readFile(testFile, 'utf8')
-
-      const download = await axios({
-        url: baseUrl + downloadPath,
-        method: 'GET'
-      })
-
-      expect(download.status).to.eql(200)
-      expect(download.data).to.eql(testFileContents)
+      await expect200(downloadPath, testFile)
     })
 
     it('file is not deleted', () => {
       const fileFound = fs.existsSync(testFile)
-
       expect(fileFound).to.eql(true)
     })
   })
@@ -85,15 +76,7 @@ describe('Download tests', function () {
     })
 
     it('download the file', async () => {
-      const testFileContents = await fsp.readFile(testCopyFile, 'utf8')
-
-      const download = await axios({
-        url: baseUrl + downloadPath,
-        method: 'GET'
-      })
-
-      expect(download.status).to.eql(200)
-      expect(download.data).to.eql(testFileContents)
+      await expect200(downloadPath, testCopyFile)
     })
 
     it('file is deleted', () => {
@@ -103,11 +86,47 @@ describe('Download tests', function () {
     })
   })
 
+  describe('download keys can only be used once', () => {
+    it('add a file for download', () => {
+      downloadPath = downloadService.addDownloadFile(testFile, false)
+
+      expect(downloadPath).to.include('/download/')
+    })
+
+    it('download the file', async () => {
+      await expect200(downloadPath, testFile)
+    })
+
+    it('download again, get 404', async () => {
+      await expect404(downloadPath)
+    })
+  })
+
   it('bad key gives 404', async () => {
+    await expect404('/download/nonsense')
+  })
+
+  after('shutdown tymly', async () => {
+    await tymlyService.shutdown()
+  })
+
+  async function expect200(downloadPath, filePath) {
+    const testFileContents = await fsp.readFile(filePath, 'utf8')
+
+    const download = await axios({
+      url: baseUrl + downloadPath,
+      method: 'GET'
+    })
+
+    expect(download.status).to.eql(200)
+    expect(download.data).to.eql(testFileContents)
+  } // expect200
+
+  async function expect404(downloadPath) {
     let download = null
     try {
       await axios({
-        url: baseUrl + '/download/nonsense',
+        url: baseUrl + downloadPath,
         method: 'GET'
       })
     } catch (err) {
@@ -120,9 +139,6 @@ describe('Download tests', function () {
 
     expect(download.isAxiosError).to.eql(true)
     expect(download.response.status).to.eql(404)
-  })
+  } // expect404
 
-  after('shutdown tymly', async () => {
-    await tymlyService.shutdown()
-  })
 })
