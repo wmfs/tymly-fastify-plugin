@@ -62,6 +62,25 @@ describe('Download tests', function () {
     expect(download.data).to.eql(testFileContents)
   })
 
+  it('bad key gives 404', async () => {
+    let download = null
+    try {
+      await axios({
+        url: baseUrl + '/download/nonsense',
+        method: 'GET'
+      })
+    } catch (err) {
+      download = err
+    }
+
+    if (!download) {
+      return expect.fail('Should have thrown with a 404 error')
+    }
+
+    expect(download.isAxiosError).to.eql(true)
+    expect(download.response.status).to.eql(404)
+  })
+
   after('shutdown tymly', async () => {
     await tymlyService.shutdown()
   })
