@@ -1,3 +1,22 @@
+# [1.3.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.2.0...v1.3.0) (2020-06-18)
+
+
+### ✨ Features
+
+* **file-downloading:** Added file can be marked as deletable ([cc3d094](https://github.com/wmfs/tymly-fastify-plugin/commit/cc3d094919a5392c49503dffe6dabe2d471150ea))
+* **file-downloading:** Download keys are good for one use only ([8bd2de9](https://github.com/wmfs/tymly-fastify-plugin/commit/8bd2de926adcbd7de1f3d2c182fbfa613e3a46a7))
+* **file-downloading:** Return 404 error is key is bad ([5229362](https://github.com/wmfs/tymly-fastify-plugin/commit/52293626e9d7d5a4b66e67cca9898871e5710e97))
+* **file-downloading:** Serve up a file using the download key ([e70ea3e](https://github.com/wmfs/tymly-fastify-plugin/commit/e70ea3edb8e9d7e12897ce187254629e956d8cb4))
+* **file-downloading:** Wire up route into fastify ([6659a98](https://github.com/wmfs/tymly-fastify-plugin/commit/6659a9858924089982c1e16bb3b8719c921373f1))
+* **state-resource:** Start of file download state resource ([36df07c](https://github.com/wmfs/tymly-fastify-plugin/commit/36df07ca78860eb4a4419de285cad47a08b267b5))
+* **state-resources:** fileDownloading state resource ([cf7c381](https://github.com/wmfs/tymly-fastify-plugin/commit/cf7c381c7c4102062df6ec6c48b695297c4b2be8))
+* File downloading service ([805de11](https://github.com/wmfs/tymly-fastify-plugin/commit/805de11e57b54e7309e23c2a55c36cd75f29fdae))
+
+
+### 🚨 Tests
+
+* s/Simple tests/Fastify tests/ ([c9cf665](https://github.com/wmfs/tymly-fastify-plugin/commit/c9cf6650bca760851c3255e0193b7df24a7254ae))
+
 # [1.2.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.1.1...v1.2.0) (2020-05-13)
 
 
