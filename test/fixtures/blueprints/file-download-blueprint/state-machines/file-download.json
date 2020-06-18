@@ -1,0 +1,16 @@
+{
+  "Comment": "Fires file-download state resource",
+  "StartAt": "Download",
+  "States": {
+    "Download": {
+      "Type": "Task",
+      "Resource": "module:fileDownloading",
+      "Parameters": {
+        "filePath.$": "$.filePath",
+        "deleteAfterDownload.$": "$.deleteAfterwards"
+      },
+      "ResultPath": "$.downloadPath",
+      "End": true
+    }
+  }
+}

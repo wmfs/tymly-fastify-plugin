@@ -1,0 +1,11 @@
+{
+  "namespace": "tymlyTest",
+  "name": "fileDownload",
+  "version": "1.0",
+
+  "label": "File Download",
+  "author": "Tim Needham",
+
+  "organisation": "Tymlys",
+  "description": "An example Tymly Blueprint ..."
+}

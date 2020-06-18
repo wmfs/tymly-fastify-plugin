@@ -24,7 +24,7 @@ function sendToken (adminToken) {
   return options
 }
 
-describe('Simple tests', function () {
+describe('Fastify tests', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
   let tymlyService, server, adminToken, rupert, alan, statebox, authService
