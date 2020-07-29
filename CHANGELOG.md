@@ -1,3 +1,21 @@
+# [1.4.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.3.0...v1.4.0) (2020-07-29)
+
+
+### ✨ Features
+
+* **blueprint:** add local file download state machine ([f6d9b8e](https://github.com/wmfs/tymly-fastify-plugin/commit/f6d9b8e1c2830afbcfe5d36d4716f3e3a5550856))
+* download file state resource can take optional download directory, and name for the browser ([99c4d76](https://github.com/wmfs/tymly-fastify-plugin/commit/99c4d76e93c0547b653dc57e8a60e30d5f387763))
+
+
+### 🐛 Bug Fixes
+
+* can pass optional download filename, for the content-disposition header ([187781a](https://github.com/wmfs/tymly-fastify-plugin/commit/187781a9a54e3148004b1ba6df4b8079c2318737))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** use updated circle node image [skip ci] ([12045a2](https://github.com/wmfs/tymly-fastify-plugin/commit/12045a2086f74e2b4ddcf01749bda0220c81a4c4))
+
 # [1.3.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.2.0...v1.3.0) (2020-06-18)
 
 
