@@ -1,0 +1,36 @@
+{
+  "Comment": "Download a file",
+  "name": "Download File",
+  "version": "1.0",
+  "categories": [],
+  "StartAt": "DownloadFile",
+  "States": {
+    "DownloadFile": {
+      "Type": "Task",
+      "Resource": "module:fileDownloading",
+      "Parameters": {
+        "filePath.$": "$.localFilePath",
+        "fileDirectory.$": "$.localFileDirectory",
+        "downloadName.$": "$.downloadName",
+        "deleteAfterDownload.$": "$.deleteAfterDownload"
+      },
+      "ResultPath": "$.downloadPath",
+      "Next": "Immediate"
+    },
+    "Immediate": {
+      "Type": "Pass",
+      "Result": {
+        "immediateDownload": true
+      },
+      "End": true
+    }
+  },
+  "restrictions": [
+    {
+      "roleId": "$authenticated",
+      "allows": [
+        "*"
+      ]
+    }
+  ]
+}
