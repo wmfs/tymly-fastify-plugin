@@ -1,3 +1,5 @@
 This document specifies a JSON object called a "FileDownload".
 A FileDownload MUST have a string field named "filePath".
+A FileDownload MAY have a string field named "fileDirectory".
 A FileDownload MAY have a boolean field named "deleteAfterDownload".
+A FileDownload MAY have a string field named "downloadName".
