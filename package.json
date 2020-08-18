@@ -31,7 +31,7 @@
     "fastify-multipart": "1.0.6",
     "fastify-static": "2.7.0",
     "jsonwebtoken": "8.5.1",
-    "lodash": "4.17.15",
+    "lodash": "4.17.20",
     "uuid": "7.0.3"
   },
   "devDependencies": {
