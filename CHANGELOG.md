@@ -1,3 +1,14 @@
+# [1.5.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.4.0...v1.5.0) (2020-08-18)
+
+
+### 🛠 Builds
+
+* **deps:** [security] bump lodash from 4.17.15 to 4.17.20 ([dc84f21](https://github.com/wmfs/tymly-fastify-plugin/commit/dc84f219a298fc771f00463bce273d6fd145d0a5))
+* **deps-dev:** [security] bump codecov from 3.6.5 to 3.7.2 ([8e2bad7](https://github.com/wmfs/tymly-fastify-plugin/commit/8e2bad706965a29ceb19ec82c1d424f68ef31a7e))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.140.0 to 1.157.0 ([41937c3](https://github.com/wmfs/tymly-fastify-plugin/commit/41937c3ff9ea6bb7ad2fc6a20853b810e68d3e06))
+* **deps-dev:** bump nyc from 15.0.1 to 15.1.0 ([6a2828f](https://github.com/wmfs/tymly-fastify-plugin/commit/6a2828fe215b2a7bbcf68c68f2336918c48f95ab))
+* **deps-dev:** bump semantic-release from 17.0.7 to 17.1.1 ([849846d](https://github.com/wmfs/tymly-fastify-plugin/commit/849846daefeced049ac8fa42333a1c4725eaad86))
+
 # [1.4.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.3.0...v1.4.0) (2020-07-29)
 
 
