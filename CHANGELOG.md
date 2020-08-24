@@ -1,3 +1,13 @@
+# [1.6.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.5.0...v1.6.0) (2020-08-24)
+
+
+### 🛠 Builds
+
+* **deps:** bump axios from 0.19.2 to 0.20.0 ([6a295cc](https://github.com/wmfs/tymly-fastify-plugin/commit/6a295cc1a7a244fa71bcb30f6a26dedd967baf8f))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin ([24036c1](https://github.com/wmfs/tymly-fastify-plugin/commit/24036c17ae25deae3432fa218bbd4539c2c6070f))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.8.1 to 2.12.0 ([bbac181](https://github.com/wmfs/tymly-fastify-plugin/commit/bbac1814d3b72c1e630bdc63f4c95bd1a24364ba))
+* **deps-dev:** bump mocha from 7.1.2 to 8.1.1 ([154c53c](https://github.com/wmfs/tymly-fastify-plugin/commit/154c53caac29f006f3c83d085de36248e587ffd2))
+
 # [1.5.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.4.0...v1.5.0) (2020-08-18)
 
 
