@@ -1,3 +1,21 @@
+# [1.7.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.6.0...v1.7.0) (2020-09-28)
+
+
+### 🛠 Builds
+
+* **deps:** bump debug from 4.1.1 to 4.2.0 ([1e9eafe](https://github.com/wmfs/tymly-fastify-plugin/commit/1e9eafe1fca7f0ade88bd96f5c0aecd703c8674f))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.157.0 to 1.158.0 ([325c609](https://github.com/wmfs/tymly-fastify-plugin/commit/325c609910b3d4b411573bf24123cdb49643305b))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.158.0 to 1.159.0 ([4527eb5](https://github.com/wmfs/tymly-fastify-plugin/commit/4527eb59f587245b3493cb56e8ce14803d401d78))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.159.0 to 1.160.0 ([9e3da12](https://github.com/wmfs/tymly-fastify-plugin/commit/9e3da1229d27ab08c281266d6b2604d5fefc44db))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin ([de39e37](https://github.com/wmfs/tymly-fastify-plugin/commit/de39e374900a5aa321a7f87c88a90732d2088936))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-rest-client-plugin from 1.6.2 to 1.7.0 ([0b373a7](https://github.com/wmfs/tymly-fastify-plugin/commit/0b373a736dd9534314280ef7fff19e0446e81d56))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.12.0 to 2.13.0 ([b3ed110](https://github.com/wmfs/tymly-fastify-plugin/commit/b3ed1109a4f0262d405f56599c13e76affdfaf30))
+* **deps-dev:** bump cz-conventional-changelog from 3.2.0 to 3.2.1 ([328fde1](https://github.com/wmfs/tymly-fastify-plugin/commit/328fde144b257e436f3f9461d62b2e0518e47ecf))
+* **deps-dev:** bump cz-conventional-changelog from 3.2.1 to 3.3.0 ([f15d543](https://github.com/wmfs/tymly-fastify-plugin/commit/f15d543a5561c702e55f99a64f00d7f33a15f8bb))
+* **deps-dev:** bump mocha from 8.1.1 to 8.1.2 ([a58992d](https://github.com/wmfs/tymly-fastify-plugin/commit/a58992de945a88c3cd2b19671ae44ab642498366))
+* **deps-dev:** bump mocha from 8.1.2 to 8.1.3 ([661dd2f](https://github.com/wmfs/tymly-fastify-plugin/commit/661dd2fed0f598e060b3d2f1f0da0982d1a1d094))
+* **deps-dev:** bump semantic-release from 17.1.1 to 17.1.2 ([2c5896c](https://github.com/wmfs/tymly-fastify-plugin/commit/2c5896ccc37eba7607dfd05a4b359be1bcc847e8))
+
 # [1.6.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.5.0...v1.6.0) (2020-08-24)
 
 
