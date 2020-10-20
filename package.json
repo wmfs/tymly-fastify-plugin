@@ -24,7 +24,7 @@
     "cpr": "3.0.1",
     "debug": "4.2.0",
     "dottie": "2.0.2",
-    "fastify": "3.6.0",
+    "fastify": "3.7.0",
     "fastify-cors": "4.1.0",
     "fastify-helmet": "5.0.3",
     "fastify-jwt": "2.1.3",
