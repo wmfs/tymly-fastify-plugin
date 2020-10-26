@@ -1,3 +1,25 @@
+# [1.11.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.10.0...v1.11.0) (2020-10-26)
+
+
+### 🛠 Builds
+
+* **deps:** bump axios from 0.20.0 to 0.21.0 ([1fb661a](https://github.com/wmfs/tymly-fastify-plugin/commit/1fb661a70057818a77565c26bf52d34ab5c2e4e0))
+* **deps:** bump fastify-multipart from 3.2.1 to 3.3.0 ([9af9a21](https://github.com/wmfs/tymly-fastify-plugin/commit/9af9a2153541def704813272b3959c955ba7d1a2))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.14.0 to 2.15.0 ([2808514](https://github.com/wmfs/tymly-fastify-plugin/commit/28085143b07121ddfc560d4788bba7031c4fd54d))
+* **deps-dev:** bump standard from 14.3.4 to 15.0.0 ([eed65d4](https://github.com/wmfs/tymly-fastify-plugin/commit/eed65d42abf529a8644df96af91b4f7d72c5c499))
+
+
+### 📦 Code Refactoring
+
+* remove standard from npm test script [skip ci] ([b2dbf5b](https://github.com/wmfs/tymly-fastify-plugin/commit/b2dbf5b7ceec12f710c801eabcba53192c46e840))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** authenticate Docker image pull [ch2767] ([5f10c62](https://github.com/wmfs/tymly-fastify-plugin/commit/5f10c622c9c6123f30af618c3b4a83ff598b9cc6))
+* **circle:** cache dependencies [ch2770] ([a0fb932](https://github.com/wmfs/tymly-fastify-plugin/commit/a0fb9323152cf415f43a6534f4b8a6958218916d))
+* **circle:** separate lint job [ch1009] ([7878e56](https://github.com/wmfs/tymly-fastify-plugin/commit/7878e560633d699075702348eb732e8b40e57ff5))
+
 # [1.10.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.9.0...v1.10.0) (2020-10-21)
 
 
