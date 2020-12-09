@@ -1,3 +1,11 @@
+# [1.14.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.13.0...v1.14.0) (2020-12-09)
+
+
+### 🛠 Builds
+
+* **deps:** bump fastify-cors from 4.1.0 to 5.1.0 ([db7e093](https://github.com/wmfs/tymly-fastify-plugin/commit/db7e0936affb3c899fd28516c63b19a2beea3a8a))
+* **deps:** bump fastify-multipart from 3.3.0 to 3.3.1 ([cc840e9](https://github.com/wmfs/tymly-fastify-plugin/commit/cc840e9edc5b2e7ec6e379bdd61c0722ff60dfaa))
+
 # [1.13.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.12.0...v1.13.0) (2020-12-09)
 
 
