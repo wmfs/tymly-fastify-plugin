@@ -1,3 +1,11 @@
+# [1.18.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.17.0...v1.18.0) (2021-01-05)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@hapi](https://github.com/hapi)/boom from 9.1.0 to 9.1.1 ([df11134](https://github.com/wmfs/tymly-fastify-plugin/commit/df111345e4702ae4964720597543e757c81ca4b3))
+* **deps:** bump fastify-static from 3.3.0 to 3.3.1 ([ff17f5e](https://github.com/wmfs/tymly-fastify-plugin/commit/ff17f5ec67fbb04f4e779cf5bfec9a3dec298d8b))
+
 # [1.17.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.16.0...v1.17.0) (2021-01-05)
 
 
