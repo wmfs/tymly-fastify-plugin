@@ -1,3 +1,13 @@
+# [1.16.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.15.0...v1.16.0) (2021-01-05)
+
+
+### 🛠 Builds
+
+* **deps:** bump axios from 0.21.0 to 0.21.1 ([1031901](https://github.com/wmfs/tymly-fastify-plugin/commit/10319018de0e5e88b1b54b8d93e91e30c5916bf9))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.16.0 to 2.17.0 ([257e127](https://github.com/wmfs/tymly-fastify-plugin/commit/257e1278359102acf2ed04ea985ef5abe4d84894))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.17.0 to 2.17.1 ([6ebac25](https://github.com/wmfs/tymly-fastify-plugin/commit/6ebac25fd4643f67f63b592b1dc5c45ca52cdb11))
+* **deps-dev:** bump semantic-release from 17.3.0 to 17.3.1 ([03272ee](https://github.com/wmfs/tymly-fastify-plugin/commit/03272ee8e6ad1ce7f2e0b32059a2b473b473e070))
+
 # [1.15.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.14.0...v1.15.0) (2020-12-21)
 
 
