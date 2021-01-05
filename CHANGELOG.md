@@ -1,3 +1,12 @@
+# [1.17.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.16.0...v1.17.0) (2021-01-05)
+
+
+### 🛠 Builds
+
+* **deps:** bump debug from 4.2.0 to 4.3.1 ([ece1996](https://github.com/wmfs/tymly-fastify-plugin/commit/ece19961044d383d410340e0494ded5f997aada1))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-rest-client-plugin from 1.8.0 to 1.9.0 ([9e854ee](https://github.com/wmfs/tymly-fastify-plugin/commit/9e854eea85909a62c3755b61121226241475cd2d))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.17.1 to 2.18.0 ([ccf3b93](https://github.com/wmfs/tymly-fastify-plugin/commit/ccf3b93e56191f00ed391904a319b40289d85fcb))
+
 # [1.16.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.15.0...v1.16.0) (2021-01-05)
 
 
