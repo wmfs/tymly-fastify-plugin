@@ -22,7 +22,7 @@
     "axios": "0.21.1",
     "@hapi/boom": "9.1.0",
     "cpr": "3.0.1",
-    "debug": "4.2.0",
+    "debug": "4.3.1",
     "dottie": "2.0.2",
     "fastify": "3.9.2",
     "fastify-cors": "5.1.0",
