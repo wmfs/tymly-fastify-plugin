@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.20.0...v1.21.0) (2021-01-12)
+
+
+### 🛠 Builds
+
+* **deps:** bump fastify-helmet from 5.0.3 to 5.1.0 ([980b6b2](https://github.com/wmfs/tymly-fastify-plugin/commit/980b6b213e1b234fd2473904957310eb5495af48))
+
 # [1.20.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.19.0...v1.20.0) (2021-01-12)
 
 
