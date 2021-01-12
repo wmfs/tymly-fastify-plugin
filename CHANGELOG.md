@@ -1,3 +1,12 @@
+# [1.22.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.21.0...v1.22.0) (2021-01-12)
+
+
+### 🛠 Builds
+
+* **deps:** bump uuid from 7.0.3 to 8.3.2 ([8ce248a](https://github.com/wmfs/tymly-fastify-plugin/commit/8ce248af460ebf936eea0acb18318483a7100235))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.181.0 to 1.182.0 ([822b794](https://github.com/wmfs/tymly-fastify-plugin/commit/822b794f1fa0e3fd1e97378128e27294fc01a375))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.182.0 to 1.183.0 ([ffb0013](https://github.com/wmfs/tymly-fastify-plugin/commit/ffb00132f56017ec74766a7d16b5e1f5eb482599))
+
 # [1.21.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.20.0...v1.21.0) (2021-01-12)
 
 
