@@ -1,3 +1,10 @@
+# [1.20.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.19.0...v1.20.0) (2021-01-12)
+
+
+### 🛠 Builds
+
+* **deps:** bump fastify-jwt from 2.2.0 to 2.3.0 ([5d0cc49](https://github.com/wmfs/tymly-fastify-plugin/commit/5d0cc4966b4e22b8ae70c881d3eaab1abe388c7e))
+
 # [1.19.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.18.0...v1.19.0) (2021-01-06)
 
 
