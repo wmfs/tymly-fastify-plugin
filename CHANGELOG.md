@@ -1,3 +1,13 @@
+# [1.23.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.22.0...v1.23.0) (2021-01-15)
+
+
+### 🛠 Builds
+
+* **deps:** bump fastify-static from 3.3.1 to 3.4.0 ([6239e98](https://github.com/wmfs/tymly-fastify-plugin/commit/6239e9834eaa38b21d5e518627f6df0ccb5070cb))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.183.0 to 1.184.0 ([86f5671](https://github.com/wmfs/tymly-fastify-plugin/commit/86f5671b0d3ab7c4609177e7974316a7584703fa))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin ([4d68b1e](https://github.com/wmfs/tymly-fastify-plugin/commit/4d68b1eb1d140f3e5594ce6e3c2819899edd3410))
+* **deps-dev:** bump semantic-release from 17.3.1 to 17.3.2 ([06e67fa](https://github.com/wmfs/tymly-fastify-plugin/commit/06e67facc5cca85313b28f550a24a1e195f89bf8))
+
 # [1.22.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.21.0...v1.22.0) (2021-01-12)
 
 
