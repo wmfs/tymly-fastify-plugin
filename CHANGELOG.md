@@ -1,3 +1,11 @@
+# [1.27.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.26.0...v1.27.0) (2021-01-29)
+
+
+### 🛠 Builds
+
+* **deps:** bump fastify-helmet from 5.1.0 to 5.2.0 ([f427f8b](https://github.com/wmfs/tymly-fastify-plugin/commit/f427f8bf85a956379bae6f9f045977aed6fdee49))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.19.0 to 2.20.0 ([434da92](https://github.com/wmfs/tymly-fastify-plugin/commit/434da92b4ec21044037ff75f590a2b9629789e93))
+
 # [1.26.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.25.0...v1.26.0) (2021-01-26)
 
 
