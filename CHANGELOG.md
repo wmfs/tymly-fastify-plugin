@@ -1,3 +1,10 @@
+# [1.30.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.29.0...v1.30.0) (2021-02-24)
+
+
+### 🛠 Builds
+
+* **deps:** bump lodash from 4.17.20 to 4.17.21 ([164d076](https://github.com/wmfs/tymly-fastify-plugin/commit/164d076a5188fd82c376a53d0e1186dd1e1de716))
+
 # [1.29.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.28.0...v1.29.0) (2021-02-24)
 
 
