@@ -1,3 +1,10 @@
+# [1.31.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.30.0...v1.31.0) (2021-02-24)
+
+
+### 🛠 Builds
+
+* **deps:** bump fastify-static from 3.4.0 to 4.0.1 ([ede3348](https://github.com/wmfs/tymly-fastify-plugin/commit/ede3348adef273030b41e2ce36057775e1b25cfa))
+
 # [1.30.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.29.0...v1.30.0) (2021-02-24)
 
 
