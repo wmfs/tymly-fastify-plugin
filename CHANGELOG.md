@@ -1,3 +1,15 @@
+# [1.28.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.27.0...v1.28.0) (2021-02-24)
+
+
+### 🛠 Builds
+
+* **deps:** bump fastify-multipart from 3.3.1 to 4.0.0 ([9e87fff](https://github.com/wmfs/tymly-fastify-plugin/commit/9e87fff1589cf4731d6147426dc62634d169968c))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.187.0 to 1.188.0 ([eb753de](https://github.com/wmfs/tymly-fastify-plugin/commit/eb753deed2148c262bb91011a93a3ba87ac31d36))
+* **deps-dev:** bump chai from 4.2.0 to 4.3.0 ([2a3499c](https://github.com/wmfs/tymly-fastify-plugin/commit/2a3499c4543dea9c723daaf953b6d156c84eabff))
+* **deps-dev:** bump mocha from 8.2.1 to 8.3.0 ([b958b88](https://github.com/wmfs/tymly-fastify-plugin/commit/b958b88278016056e605e429b9e0fab95f3ae9ba))
+* **deps-dev:** bump semantic-release from 17.3.7 to 17.3.8 ([8caba87](https://github.com/wmfs/tymly-fastify-plugin/commit/8caba876f60cd1fa0f55bbacdeb9006c0d01c20a))
+* **deps-dev:** bump semantic-release from 17.3.8 to 17.3.9 ([3663193](https://github.com/wmfs/tymly-fastify-plugin/commit/3663193d2688e80f012f0b6b21d1cc551f6ce768))
+
 # [1.27.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.26.0...v1.27.0) (2021-01-29)
 
 
