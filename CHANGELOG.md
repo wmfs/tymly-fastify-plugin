@@ -1,3 +1,17 @@
+# [1.34.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.33.0...v1.34.0) (2021-03-17)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@hapi](https://github.com/hapi)/boom from 9.1.1 to 9.1.2 ([dd0499d](https://github.com/wmfs/tymly-fastify-plugin/commit/dd0499d68c7520d56659f43594ed8252337a2338))
+* **deps:** bump fastify from 3.13.0 to 3.14.0 ([c9ea8a3](https://github.com/wmfs/tymly-fastify-plugin/commit/c9ea8a347c8de350d052fe2452f63a652f1fea7f))
+* **deps:** bump fastify-multipart from 4.0.0 to 4.0.3 ([4546488](https://github.com/wmfs/tymly-fastify-plugin/commit/45464885359417d875111e3aa41577978a7cc9c3))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.21.0 to 2.22.0 ([6e1f7d8](https://github.com/wmfs/tymly-fastify-plugin/commit/6e1f7d830ecd046261f31b5fa2b5dc1911462c37))
+* **deps-dev:** bump chai from 4.3.3 to 4.3.4 ([7a05ea6](https://github.com/wmfs/tymly-fastify-plugin/commit/7a05ea6fbb7de0369eb1aec3aa2057bd3253f9b4))
+* **deps-dev:** bump mocha from 8.3.0 to 8.3.1 ([2685728](https://github.com/wmfs/tymly-fastify-plugin/commit/2685728c33e96e540b01d2cbadf4509380680b26))
+* **deps-dev:** bump mocha from 8.3.1 to 8.3.2 ([64ad891](https://github.com/wmfs/tymly-fastify-plugin/commit/64ad8917f81cbd859de0083adb08c2257c9f743a))
+* **deps-dev:** bump semantic-release from 17.4.1 to 17.4.2 ([c68b415](https://github.com/wmfs/tymly-fastify-plugin/commit/c68b4159df256b13efc0daab771d167671105d3f))
+
 # [1.33.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.32.0...v1.33.0) (2021-03-05)
 
 
