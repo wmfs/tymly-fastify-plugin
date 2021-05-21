@@ -1,3 +1,10 @@
+# [1.40.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.39.0...v1.40.0) (2021-05-21)
+
+
+### 🛠 Builds
+
+* **deps:** bump fastify-multipart from 4.0.3 to 4.0.6 ([3d39fde](https://github.com/wmfs/tymly-fastify-plugin/commit/3d39fde9a6b06544f296c1cafb6122f251196599))
+
 # [1.39.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.38.0...v1.39.0) (2021-05-21)
 
 
