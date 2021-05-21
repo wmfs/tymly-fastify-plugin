@@ -1,3 +1,10 @@
+# [1.39.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.38.0...v1.39.0) (2021-05-21)
+
+
+### 🛠 Builds
+
+* **deps:** bump fastify-cors from 5.2.0 to 6.0.1 ([df9025d](https://github.com/wmfs/tymly-fastify-plugin/commit/df9025d85406b8466e686f2c80b70dbe2bb6d1ab))
+
 # [1.38.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.37.0...v1.38.0) (2021-05-21)
 
 
