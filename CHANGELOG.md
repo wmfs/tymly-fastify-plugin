@@ -1,3 +1,22 @@
+# [1.44.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.43.0...v1.44.0) (2021-07-30)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency fastify-jwt to v3 ([163672c](https://github.com/wmfs/tymly-fastify-plugin/commit/163672c0684ca14e0f27e7de10ef544ebbe866f0))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.209.0 to 1.210.0 ([aafe41e](https://github.com/wmfs/tymly-fastify-plugin/commit/aafe41e474d387b30af97e546f9faf93207a725a))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.210.0 to 1.211.0 ([80f8123](https://github.com/wmfs/tymly-fastify-plugin/commit/80f81232f8ff038160aa53c9cc310d84e8869324))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.211.0 to 1.212.0 ([e2d0351](https://github.com/wmfs/tymly-fastify-plugin/commit/e2d0351cf544601ca1c94b09573a1ef6a40dbbcb))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin ([61c69fb](https://github.com/wmfs/tymly-fastify-plugin/commit/61c69fb1f3497cbd67ffa6c52e4ad991faaaf88e))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.24.1 to 2.25.0 ([31586ee](https://github.com/wmfs/tymly-fastify-plugin/commit/31586eece2e3be05b121fc60c27cecc2de669d7c))
+* **deps-dev:** bump codecov from 3.8.2 to 3.8.3 ([b3f1853](https://github.com/wmfs/tymly-fastify-plugin/commit/b3f185325e693db20522e4a934c3f70ad3dafafd))
+* **deps-dev:** bump mocha from 9.0.2 to 9.0.3 ([8a71ac2](https://github.com/wmfs/tymly-fastify-plugin/commit/8a71ac2030e0bec4179a7c02812e3794c86e3434))
+
+
+### ♻️ Chores
+
+* add renovate config [ch6600] ([bb9df83](https://github.com/wmfs/tymly-fastify-plugin/commit/bb9df832fa94e47f32c1193ae52a404ae85c70dc))
+
 # [1.43.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.42.0...v1.43.0) (2021-07-09)
 
 
