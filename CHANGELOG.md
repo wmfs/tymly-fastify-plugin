@@ -1,3 +1,11 @@
+# [1.47.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.46.0...v1.47.0) (2021-07-30)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency [@hapi](https://github.com/hapi)/boom to v9.1.3 ([09b429d](https://github.com/wmfs/tymly-fastify-plugin/commit/09b429d34ce5d6a473adcc33cd78f1e3428fb495))
+* **deps:** update dependency fastify-cors to v6.0.2 ([8175f67](https://github.com/wmfs/tymly-fastify-plugin/commit/8175f67a2974b85e1e700d76a2e9904d477ae441))
+
 # [1.46.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.45.0...v1.46.0) (2021-07-30)
 
 
