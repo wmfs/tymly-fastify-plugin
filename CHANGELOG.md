@@ -1,3 +1,10 @@
+# [1.45.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.44.0...v1.45.0) (2021-07-30)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency fastify to v3.19.2 ([21331a3](https://github.com/wmfs/tymly-fastify-plugin/commit/21331a35e0302f83738a572473e6d10a6203b21e))
+
 # [1.44.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.43.0...v1.44.0) (2021-07-30)
 
 
