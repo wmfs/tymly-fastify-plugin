@@ -1,3 +1,20 @@
+# [1.49.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.48.0...v1.49.0) (2021-09-10)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency axios to v0.21.2 [security] ([0fd1d85](https://github.com/wmfs/tymly-fastify-plugin/commit/0fd1d851101e4935024288def4210861365f9455))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/git to v9.0.1 ([6ffbc00](https://github.com/wmfs/tymly-fastify-plugin/commit/6ffbc006130fc9295c8b66776dbb55706687843e))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.212.2 ([d2df4b3](https://github.com/wmfs/tymly-fastify-plugin/commit/d2df4b397a3b672b48d656ca92b13ae3e440febc))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.212.3 ([9a26eb9](https://github.com/wmfs/tymly-fastify-plugin/commit/9a26eb9e2762d3895875e3aab7e78f10125b1aa3))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.212.4 ([81a1a2e](https://github.com/wmfs/tymly-fastify-plugin/commit/81a1a2e2974cfaee1039629052c70361025c2a5a))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.213.0 ([df71ef4](https://github.com/wmfs/tymly-fastify-plugin/commit/df71ef43d97e3ff732a25f5310cf0f34557e24c1))
+* **deps-dev:** update dependency mocha to v9.1.0 ([0bc17bf](https://github.com/wmfs/tymly-fastify-plugin/commit/0bc17bfb455c6f604dc75e7d4b8c132cd8262f92))
+* **deps-dev:** update dependency mocha to v9.1.1 ([ad4b5f7](https://github.com/wmfs/tymly-fastify-plugin/commit/ad4b5f702c215c8c79b53fbedfb44405f8d12cde))
+* **deps-dev:** update dependency semantic-release to v17.4.5 ([a1f889a](https://github.com/wmfs/tymly-fastify-plugin/commit/a1f889a08d51d7f6b55cda0d0102b3e1df0feba2))
+* **deps-dev:** update dependency semantic-release to v17.4.6 ([c04d12b](https://github.com/wmfs/tymly-fastify-plugin/commit/c04d12bf974ee6d0af2bf2add435445836b397c6))
+* **deps-dev:** update dependency semantic-release to v17.4.7 ([2d8d838](https://github.com/wmfs/tymly-fastify-plugin/commit/2d8d8388cce181c3f8b32f707738e27bb8c5d3fb))
+
 # [1.48.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.47.0...v1.48.0) (2021-08-04)
 
 
