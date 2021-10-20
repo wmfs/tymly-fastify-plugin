@@ -1,3 +1,10 @@
+# [1.52.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.51.0...v1.52.0) (2021-10-20)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency fastify-static to v4.4.1 [security] ([e522583](https://github.com/wmfs/tymly-fastify-plugin/commit/e5225836be452e80ff7da161bee880d8fd6ce172))
+
 # [1.51.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.50.0...v1.51.0) (2021-10-20)
 
 
