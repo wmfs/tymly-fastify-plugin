@@ -1,3 +1,31 @@
+# [1.53.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.52.0...v1.53.0) (2022-01-25)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency [@hapi](https://github.com/hapi)/boom to v9.1.4 ([5149888](https://github.com/wmfs/tymly-fastify-plugin/commit/5149888dec7e487320286f7638858ac6b56729e7))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.218.0 ([9c4fcbd](https://github.com/wmfs/tymly-fastify-plugin/commit/9c4fcbd79e8a3d7da00c7b47af5c96b0669f359f))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.218.1 ([c1b0c8c](https://github.com/wmfs/tymly-fastify-plugin/commit/c1b0c8c35573a29894857b9b60bc77ecde00ea6e))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.220.0 ([fa020fd](https://github.com/wmfs/tymly-fastify-plugin/commit/fa020fdee6c0194f8a8770e05cd2646ceb28697f))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.221.0 ([4ef3048](https://github.com/wmfs/tymly-fastify-plugin/commit/4ef3048645cf3edfca7b0e11f26d277ec94de960))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.222.0 ([5e6c606](https://github.com/wmfs/tymly-fastify-plugin/commit/5e6c60608b44e4abdf2096419577761d9f27377b))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.224.2 ([60cca96](https://github.com/wmfs/tymly-fastify-plugin/commit/60cca96cf2f0935c67ce543577fe7b59b6e6803d))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.36.1 ([fb815f1](https://github.com/wmfs/tymly-fastify-plugin/commit/fb815f1ac147d44540be558c10ecba894a01e305))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.36.2 ([ae234d7](https://github.com/wmfs/tymly-fastify-plugin/commit/ae234d711526172c899d0dc61062647da67da936))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.37.0 ([044a66b](https://github.com/wmfs/tymly-fastify-plugin/commit/044a66bb43090546c6be6c294be1354793b94208))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin to v1.19.0 ([ee4feae](https://github.com/wmfs/tymly-fastify-plugin/commit/ee4feae51575959e523bd64800a784a2ea1cb4e9))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin to v1.20.0 ([fca984d](https://github.com/wmfs/tymly-fastify-plugin/commit/fca984d6ee33061492e62fb801ecbc01d980fbe9))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin to v1.20.1 ([ab1e515](https://github.com/wmfs/tymly-fastify-plugin/commit/ab1e515a237091131a903fd35fa476654fb570bf))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin to v1.21.0 ([6a50f08](https://github.com/wmfs/tymly-fastify-plugin/commit/6a50f08cecb392ccd506f5715a1907b11bc5de39))
+* **deps-dev:** update dependency semantic-release to v18.0.1 ([7bcc451](https://github.com/wmfs/tymly-fastify-plugin/commit/7bcc45108f92956f67c4a1a40c6d0063d3e77fdb))
+* **deps-dev:** update semantic-release monorepo ([6539b6d](https://github.com/wmfs/tymly-fastify-plugin/commit/6539b6d2e312df4457be9c364cce6031fe5108a0))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** add build-env-vars context [sc-11392] ([0f3c0d5](https://github.com/wmfs/tymly-fastify-plugin/commit/0f3c0d5ef488702e913b6491d4e9139d75b560b6))
+* **circle:** update npm install command [sc-11392] ([053b3c6](https://github.com/wmfs/tymly-fastify-plugin/commit/053b3c6edd99a2e8f13eaa301025e7261f3e9366))
+
 # [1.52.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.51.0...v1.52.0) (2021-10-20)
 
 
