@@ -1,3 +1,11 @@
+# [1.57.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.56.0...v1.57.0) (2022-01-25)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency axios to v0.25.0 ([32470fb](https://github.com/wmfs/tymly-fastify-plugin/commit/32470fb367fdb188c19c934c0016ed8d39babb54))
+* **deps:** update dependency fastify-multipart to v5 ([a70dd90](https://github.com/wmfs/tymly-fastify-plugin/commit/a70dd90eca686f6d7123cd02b3095452d41feaf7))
+
 # [1.56.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.55.0...v1.56.0) (2022-01-25)
 
 
