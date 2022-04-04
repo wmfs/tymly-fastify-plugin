@@ -1,3 +1,25 @@
+# [1.60.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.59.0...v1.60.0) (2022-04-04)
+
+
+### ✨ Features
+
+* switch debug to using tymly logger service ([0c1ec68](https://github.com/wmfs/tymly-fastify-plugin/commit/0c1ec683ba3d3d54f9abbd976a22cc2e7de61c4d))
+
+
+### 🛠 Builds
+
+* **deps:** update all deps ([1486628](https://github.com/wmfs/tymly-fastify-plugin/commit/14866282b6a7149d3c63763637733f9f8a44688e))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/exec to v6.0.3 ([558619a](https://github.com/wmfs/tymly-fastify-plugin/commit/558619ae4d30f7a5be11b85556b8deeeee69e1d7))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rest-client-plugin to v1.15.0 ([3db95fc](https://github.com/wmfs/tymly-fastify-plugin/commit/3db95fc771388ff913befe84485695e267d1ed6f))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-solr-plugin to v2.32.0 ([0b38383](https://github.com/wmfs/tymly-fastify-plugin/commit/0b3838326dfc08fd7205308b4abf4340967907c1))
+* **deps-dev:** update dependency chai to v4.3.5 ([dd16a2a](https://github.com/wmfs/tymly-fastify-plugin/commit/dd16a2adec511d3e27869044041be41e4b03832b))
+* **deps-dev:** update dependency chai to v4.3.6 ([dec5030](https://github.com/wmfs/tymly-fastify-plugin/commit/dec5030fa7852f2f21759984ffe8a3fa937a03ad))
+* **deps-dev:** update dependency mocha to v9.2.0 ([1e283f8](https://github.com/wmfs/tymly-fastify-plugin/commit/1e283f8c85c69a6f8eb7c7052d00452a3c345d88))
+* **deps-dev:** update dependency mocha to v9.2.1 ([24aba1b](https://github.com/wmfs/tymly-fastify-plugin/commit/24aba1b953d9c87630ba4b15bb1f7d1d30510885))
+* **deps-dev:** update dependency mocha to v9.2.2 ([1cdf478](https://github.com/wmfs/tymly-fastify-plugin/commit/1cdf47862beb7b3b57a59c05d6edb0004c150f4e))
+* **deps-dev:** update dependency semantic-release to v19 ([19ace7d](https://github.com/wmfs/tymly-fastify-plugin/commit/19ace7df61690060418c324c4f87c37c42f3059b))
+* **deps-dev:** update tymly core ([3d695e2](https://github.com/wmfs/tymly-fastify-plugin/commit/3d695e29e786de8a3fd8d45d057ec2dd22bc43a0))
+
 # [1.59.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.58.0...v1.59.0) (2022-01-25)
 
 
