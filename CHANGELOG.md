@@ -1,3 +1,10 @@
+# [1.62.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.61.0...v1.62.0) (2022-04-05)
+
+
+### 🛠 Builds
+
+* **deps:** revert dependency fastify-jwt to v3.0.1 ([331a377](https://github.com/wmfs/tymly-fastify-plugin/commit/331a377da7996017c7f12dd37f3be9d95fffc14a))
+
 # [1.61.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.60.0...v1.61.0) (2022-04-05)
 
 
