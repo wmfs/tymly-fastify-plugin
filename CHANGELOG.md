@@ -1,3 +1,10 @@
+# [1.61.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.60.0...v1.61.0) (2022-04-05)
+
+
+### ✨ Features
+
+* more use of logger to replace console logs ([976bc36](https://github.com/wmfs/tymly-fastify-plugin/commit/976bc3678d64110aafafb418cdccd40e788252ac))
+
 # [1.60.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.59.0...v1.60.0) (2022-04-04)
 
 
