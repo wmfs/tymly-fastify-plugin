@@ -1,3 +1,20 @@
+## [1.62.1](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.62.0...v1.62.1) (2022-05-09)
+
+
+### 🐛 Bug Fixes
+
+* describe execution has a new parameter to updating timestamp ([2a1ea65](https://github.com/wmfs/tymly-fastify-plugin/commit/2a1ea65eed65f211f450fc01eeb5757319d16ac0))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/tymly to 1.237.0 ([9dafd10](https://github.com/wmfs/tymly-fastify-plugin/commit/9dafd10d76c2b21bcd797274225790a8e0ec8b20))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.235.2 ([d72d984](https://github.com/wmfs/tymly-fastify-plugin/commit/d72d984898f2d3a7c5452513a88d1375230dbed0))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.235.3 ([15463e3](https://github.com/wmfs/tymly-fastify-plugin/commit/15463e373e97e4a4c16d05f986d8f1551d18ae61))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin to v1.22.0 ([d03b532](https://github.com/wmfs/tymly-fastify-plugin/commit/d03b532a2a1bf0b45a771071349182c1f9b88fe0))
+* **deps-dev:** update dependency mocha to v10 ([92ba396](https://github.com/wmfs/tymly-fastify-plugin/commit/92ba39648d5aab2c5503e7cb8a872bf9a32e1014))
+* **deps-dev:** update dependency standard to v17 ([3bf9396](https://github.com/wmfs/tymly-fastify-plugin/commit/3bf9396e9efc40cf6605e9c2fc637f6d43fddabe))
+
 # [1.62.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.61.0...v1.62.0) (2022-04-05)
 
 
