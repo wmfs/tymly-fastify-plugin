@@ -1,3 +1,15 @@
+## [1.62.2](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.62.1...v1.62.2) (2022-05-10)
+
+
+### 🐛 Bug Fixes
+
+* pass update last described as execution options ([6e0bf48](https://github.com/wmfs/tymly-fastify-plugin/commit/6e0bf481314854dc266899bd3d7aeb7ccfb6f1a0))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/tymly to 1.238.0 ([fbc2db1](https://github.com/wmfs/tymly-fastify-plugin/commit/fbc2db19264df1265e52fe6a686312131b7d1dbd))
+
 ## [1.62.1](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.62.0...v1.62.1) (2022-05-09)
 
 
