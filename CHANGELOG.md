@@ -1,3 +1,24 @@
+## [1.62.3](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.62.2...v1.62.3) (2022-07-28)
+
+
+### 🐛 Bug Fixes
+
+* allow for cross origin resources sc-15881[] ([3bc51c0](https://github.com/wmfs/tymly-fastify-plugin/commit/3bc51c0feb191c3eeae390a283599fb0e61d25bf))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.239.0 ([e86d8c3](https://github.com/wmfs/tymly-fastify-plugin/commit/e86d8c372c8aab4ecd61c827a9467149963e4c12))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.239.1 ([eb4a36a](https://github.com/wmfs/tymly-fastify-plugin/commit/eb4a36af4755f9483e5f4bd3f3eb0363f56d5d76))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.240.0 ([8a5fb1c](https://github.com/wmfs/tymly-fastify-plugin/commit/8a5fb1c5c039f7cbd893c6ddc2579f7ad59b5186))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.41.0 ([dfb7166](https://github.com/wmfs/tymly-fastify-plugin/commit/dfb71669186999ca52cbe9b9a204d9a4ad232ae7))
+* **deps-dev:** update dependency semantic-release to v19.0.3 ([e257beb](https://github.com/wmfs/tymly-fastify-plugin/commit/e257bebd829922766f58ec52367c83893a473645))
+
+
+### ♻️ Chores
+
+* remove comment ([06cdbb8](https://github.com/wmfs/tymly-fastify-plugin/commit/06cdbb8796b8b6e4b596888a5f173a7d3eff2480))
+
 ## [1.62.2](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.62.1...v1.62.2) (2022-05-10)
 
 
