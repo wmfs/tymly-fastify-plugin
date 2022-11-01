@@ -1,3 +1,14 @@
+# [1.63.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.62.3...v1.63.0) (2022-11-01)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.242.0 ([39184f2](https://github.com/wmfs/tymly-fastify-plugin/commit/39184f2d144d0249bb184af7d96fb69714624e11))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.42.0 ([b99bba5](https://github.com/wmfs/tymly-fastify-plugin/commit/b99bba50dc716e5f7e31769caadb4ce8a488f60e))
+* **deps-dev:** update dependency semantic-release to v19.0.4 ([6d0ee81](https://github.com/wmfs/tymly-fastify-plugin/commit/6d0ee811ebd24d37046c06a345683510dfdd00e2))
+* **deps-dev:** update dependency semantic-release to v19.0.5 ([4d67334](https://github.com/wmfs/tymly-fastify-plugin/commit/4d67334e14b9548ef461782ceb429bd819f98aac))
+* **deps:** update dependency uuid to v9 ([cfdc2f4](https://github.com/wmfs/tymly-fastify-plugin/commit/cfdc2f4a3d5eab14591765c51753202dd454c2aa))
+
 ## [1.62.3](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.62.2...v1.62.3) (2022-07-28)
 
 
