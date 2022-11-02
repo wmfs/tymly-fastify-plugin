@@ -19,7 +19,7 @@
   },
   "main": "./lib/index.js",
   "dependencies": {
-    "axios": "0.26.1",
+    "axios": "0.27.2",
     "@hapi/boom": "10.0.0",
     "cpr": "3.0.1",
     "debug": "4.3.4",
