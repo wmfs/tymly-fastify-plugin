@@ -1,3 +1,11 @@
+# [1.64.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.63.0...v1.64.0) (2022-11-02)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.43.0 ([a7a76f8](https://github.com/wmfs/tymly-fastify-plugin/commit/a7a76f87a63c02eb4cd85d532c8f973eeecddf0f))
+* **deps:** update dependency [@hapi](https://github.com/hapi)/boom to v10 ([3e87819](https://github.com/wmfs/tymly-fastify-plugin/commit/3e8781929e0453849ba490e0e05b7d0402b2ebdd))
+
 # [1.63.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.62.3...v1.63.0) (2022-11-01)
 
 
