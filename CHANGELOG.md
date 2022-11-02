@@ -1,3 +1,11 @@
+# [1.66.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.65.0...v1.66.0) (2022-11-02)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency fastify-helmet to v7.1.0 ([2268d0f](https://github.com/wmfs/tymly-fastify-plugin/commit/2268d0f799288489334c4e9e5c3eadf8f1b205e1))
+* **deps:** update dependency fastify-static to v4.7.0 ([e4f332d](https://github.com/wmfs/tymly-fastify-plugin/commit/e4f332d6a69fb2c38168a2f3020c9992b30b2a37))
+
 # [1.65.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.64.0...v1.65.0) (2022-11-02)
 
 
