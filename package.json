@@ -51,7 +51,7 @@
     "mocha": "10.2.0",
     "nyc": "15.1.0",
     "safe-buffer": "5.2.1",
-    "semantic-release": "20.0.0",
+    "semantic-release": "20.0.1",
     "standard": "17.0.0"
   },
   "scripts": {
