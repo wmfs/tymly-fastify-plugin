@@ -1,3 +1,10 @@
+# [1.70.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.69.0...v1.70.0) (2023-03-13)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency axios to v1.3.4 ([009a8b4](https://github.com/wmfs/tymly-fastify-plugin/commit/009a8b45823ece904d8efef85e50024c90cf5b31))
+
 # [1.69.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.68.0...v1.69.0) (2023-03-13)
 
 
