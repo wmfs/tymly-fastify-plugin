@@ -1,3 +1,10 @@
+# [1.71.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.70.0...v1.71.0) (2023-03-13)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency [@hapi](https://github.com/hapi)/boom to v10.0.1 ([05ed2b0](https://github.com/wmfs/tymly-fastify-plugin/commit/05ed2b0a9a250f62996befcfe3f603f2cd963258))
+
 # [1.70.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.69.0...v1.70.0) (2023-03-13)
 
 
