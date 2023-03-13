@@ -1,3 +1,13 @@
+# [1.69.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.68.0...v1.69.0) (2023-03-13)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rest-client-plugin to v1.17.0 ([04ff42c](https://github.com/wmfs/tymly-fastify-plugin/commit/04ff42ce5ecd30781e927c8cae2c4845041d90f9))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-solr-plugin to v2.37.0 ([34c5bbb](https://github.com/wmfs/tymly-fastify-plugin/commit/34c5bbbb2c975265daa177428ce5959cdf2a9787))
+* **deps-dev:** update dependency semantic-release to v20.1.1 ([61d3262](https://github.com/wmfs/tymly-fastify-plugin/commit/61d3262f8a6c3cc71d67c85eb2cd600f1c404242))
+* **deps:** update dependency dottie to v2.0.3 ([370531b](https://github.com/wmfs/tymly-fastify-plugin/commit/370531b75dde6441756211084bdff9653d05aa75))
+
 # [1.68.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.67.0...v1.68.0) (2023-02-17)
 
 
