@@ -41,7 +41,7 @@ describe('Fastify tests', function () {
         Buffer.from(secret, 'base64'),
         {
           subject: 'Dave',
-          audience: audience
+          audience
         }
       )
     })

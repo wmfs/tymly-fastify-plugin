@@ -1,4 +1,3 @@
-
 module.exports = class Eating {
   boot (config, options, callback) {
     callback(null)

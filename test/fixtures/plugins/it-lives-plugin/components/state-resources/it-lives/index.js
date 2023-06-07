@@ -1,4 +1,3 @@
-
 module.exports = class Hello {
   run (event, context) {
     console.log('I LIVE!!!')

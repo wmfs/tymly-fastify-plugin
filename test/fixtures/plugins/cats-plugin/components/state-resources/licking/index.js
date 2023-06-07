@@ -1,4 +1,3 @@
-
 module.exports = class Licking {
   boot (config, options, callback) {
     callback(null)

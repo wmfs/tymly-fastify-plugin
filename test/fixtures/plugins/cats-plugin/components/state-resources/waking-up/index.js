@@ -1,4 +1,3 @@
-
 module.exports = class WakingUp {
   boot (config, options, callback) {
     callback(null)

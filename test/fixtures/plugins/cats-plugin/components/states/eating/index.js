@@ -1,4 +1,3 @@
-
 class Eating {
   init (stateConfig, options, callback) {
     callback(null)
