@@ -1,3 +1,26 @@
+# [1.72.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.71.0...v1.72.0) (2023-06-07)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6.0.3 ([3c6fdde](https://github.com/wmfs/tymly-fastify-plugin/commit/3c6fddef33df174125516d0ff6741a38108427ae))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.256.0 ([22327f4](https://github.com/wmfs/tymly-fastify-plugin/commit/22327f40ddf2a4ae7185393d848aff932873e3c2))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin to v1.25.0 ([4e1edf1](https://github.com/wmfs/tymly-fastify-plugin/commit/4e1edf1012b9b6f690f3f812e7b9511ee9d4df39))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rest-client-plugin to v1.18.0 ([80af80f](https://github.com/wmfs/tymly-fastify-plugin/commit/80af80f9db9b8f0207e63ea22619bdde3ec90e96))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-solr-plugin to v2.38.0 ([03a5c8f](https://github.com/wmfs/tymly-fastify-plugin/commit/03a5c8f79fb58bc3e2c1794e06f546ef8fc6867c))
+* **deps-dev:** update dependency semantic-release to v20.1.3 ([4c42fb9](https://github.com/wmfs/tymly-fastify-plugin/commit/4c42fb9680ab0587e1f8359aa20bbd4f6f4cee0e))
+* **deps-dev:** update dependency semantic-release to v21 ([7bcac74](https://github.com/wmfs/tymly-fastify-plugin/commit/7bcac7418aade30c9305586dd32e640f4e246fbe))
+* **deps-dev:** update dependency semantic-release to v21.0.1 ([45a6d8a](https://github.com/wmfs/tymly-fastify-plugin/commit/45a6d8a3df1f99d113d8dd0621d5a8076ca5d710))
+* **deps-dev:** update dependency semantic-release to v21.0.2 ([9666d39](https://github.com/wmfs/tymly-fastify-plugin/commit/9666d397802e37a73d56f2765016caee242beb23))
+* **deps-dev:** update dependency semantic-release to v21.0.3 ([4d02d6b](https://github.com/wmfs/tymly-fastify-plugin/commit/4d02d6b733509017b73b18faf635f382934fd626))
+* **deps-dev:** update dependency standard to v17.1.0 ([dc1d5d1](https://github.com/wmfs/tymly-fastify-plugin/commit/dc1d5d1eb8be4ab522cb3f97783e6a679b35729a))
+* **deps:** update dependency axios to v1.4.0 ([f952ab5](https://github.com/wmfs/tymly-fastify-plugin/commit/f952ab5fa0d7176858e9473ba60bf31e03f8ee95))
+
+
+### 📦 Code Refactoring
+
+* standard code styling ([ba1b32e](https://github.com/wmfs/tymly-fastify-plugin/commit/ba1b32e561f7c2ec133640c3cfaf30dba0da3af6))
+
 # [1.71.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.70.0...v1.71.0) (2023-03-13)
 
 
