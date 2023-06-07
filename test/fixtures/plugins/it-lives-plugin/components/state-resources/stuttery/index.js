@@ -1,4 +1,3 @@
-
 let fail = false
 
 module.exports = class Stuttery {

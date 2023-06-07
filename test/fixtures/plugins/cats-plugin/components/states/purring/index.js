@@ -1,4 +1,3 @@
-
 const levelLabels = ['softly', 'away', 'loudly']
 
 class Purring {
