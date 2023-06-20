@@ -1,3 +1,10 @@
+# [1.74.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.73.0...v1.74.0) (2023-06-20)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency dottie to v2.0.6 ([c3a7eb0](https://github.com/wmfs/tymly-fastify-plugin/commit/c3a7eb02f1c2f5db1309540177458ad2d1f47180))
+
 # [1.73.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.72.0...v1.73.0) (2023-06-20)
 
 
