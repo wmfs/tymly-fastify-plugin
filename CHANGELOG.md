@@ -1,3 +1,12 @@
+# [1.76.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.75.0...v1.76.0) (2024-01-15)
+
+
+### 🛠 Builds
+
+* **deps:** bump fastify from 3.27.4 to 3.29.4 ([02e49f3](https://github.com/wmfs/tymly-fastify-plugin/commit/02e49f363aa1e36a68b04aa83279a2fcad73c12c))
+* **deps:** bump jsonwebtoken from 8.5.1 to 9.0.0 ([a60cb47](https://github.com/wmfs/tymly-fastify-plugin/commit/a60cb471b77d8daa9f96a2da9cb59b2c59def775))
+* **deps:** update dependency axios to v1.6.5 ([11d68eb](https://github.com/wmfs/tymly-fastify-plugin/commit/11d68ebf0eb8d4bf69c6f71b44bd01dd216b3949))
+
 # [1.75.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.74.0...v1.75.0) (2024-01-15)
 
 
