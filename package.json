@@ -30,7 +30,7 @@
     "fastify-jwt": "3.0.1",
     "fastify-multipart": "5.4.0",
     "fastify-static": "4.7.0",
-    "jsonwebtoken": "9.0.0",
+    "jsonwebtoken": "9.0.2",
     "lodash": "4.17.21",
     "uuid": "11.0.2"
   },
