@@ -1,3 +1,5 @@
+# [1.77.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.76.0...v1.77.0) (2024-11-04)
+
 # [1.76.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.75.0...v1.76.0) (2024-01-15)
 
 
