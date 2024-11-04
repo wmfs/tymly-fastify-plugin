@@ -89,7 +89,9 @@ describe('Fastify tests', function () {
       server.listen(
         PORT,
         HOST,
-        () => {
+        (err) => {
+          expect(err).to.eql(null)
+
           console.log('\n')
           console.log(`Example app listening on port ${PORT}!\n`)
           done()
