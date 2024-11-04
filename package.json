@@ -26,7 +26,7 @@
     "dottie": "2.0.6",
     "fastify": "3.29.5",
     "@fastify/cors": "7.0.0",
-    "fastify-helmet": "7.1.0",
+    "@fastify/helmet": "8.0.0",
     "@fastify/jwt": "5.0.0",
     "@fastify/multipart": "6.0.0",
     "fastify-static": "4.7.0",
