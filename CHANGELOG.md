@@ -1,3 +1,10 @@
+## [1.91.1](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.91.0...v1.91.1) (2024-11-05)
+
+
+### Bug Fixes
+
+* adjust to breaking changes from fastify jwt ([#477](https://github.com/wmfs/tymly-fastify-plugin/issues/477)) ([cf29d37](https://github.com/wmfs/tymly-fastify-plugin/commit/cf29d375bfbdc3aaa4a3cd485b367a8cef4f416c))
+
 # [1.91.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.90.0...v1.91.0) (2024-11-04)
 
 # [1.90.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.89.0...v1.90.0) (2024-11-04)
