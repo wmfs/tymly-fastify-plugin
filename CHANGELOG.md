@@ -1,3 +1,10 @@
+## [1.94.1](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.94.0...v1.94.1) (2024-11-25)
+
+
+### Bug Fixes
+
+* [sc-28801] Unable to upload due to newer version of multipart ([#486](https://github.com/wmfs/tymly-fastify-plugin/issues/486)) ([a06780a](https://github.com/wmfs/tymly-fastify-plugin/commit/a06780a3c07fae2b555887a27a6daefbd0311abf))
+
 # [1.94.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.93.0...v1.94.0) (2024-11-25)
 
 # [1.93.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.92.0...v1.93.0) (2024-11-25)
