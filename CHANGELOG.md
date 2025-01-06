@@ -1,3 +1,9 @@
+## [1.101.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.100.0...v1.101.0) (2025-01-06)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency fastify to v5.2.1 ([#507](https://github.com/wmfs/tymly-fastify-plugin/issues/507)) ([c961a9b](https://github.com/wmfs/tymly-fastify-plugin/commit/c961a9b563ec882a08b18aa9c684c01610f24ea1))
+
 ## [1.100.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.99.0...v1.100.0) (2025-01-06)
 
 ### Build system dependencies :hammer:
