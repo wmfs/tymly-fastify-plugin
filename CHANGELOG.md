@@ -1,3 +1,12 @@
+## [1.99.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.98.0...v1.99.0) (2025-01-06)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** [sc-29160] Resolve issue with semantic-release changelog notes ([#508](https://github.com/wmfs/tymly-fastify-plugin/issues/508)) ([41642a6](https://github.com/wmfs/tymly-fastify-plugin/commit/41642a6ea577ec04da5f9bc879affdc2d6c89390))
+* **deps-dev:** update dependency @wmfs/tymly to v1.287.0 ([#503](https://github.com/wmfs/tymly-fastify-plugin/issues/503)) ([1e84a3e](https://github.com/wmfs/tymly-fastify-plugin/commit/1e84a3e98bf2a386004ca67127fc2d400759283e))
+* **deps-dev:** update dependency semantic-release to v24.2.1 ([#502](https://github.com/wmfs/tymly-fastify-plugin/issues/502)) ([61595c9](https://github.com/wmfs/tymly-fastify-plugin/commit/61595c99c2751980af41eae616986002b3f50d3c))
+* **deps:** update dependency @fastify/helmet to v13.0.1 ([#504](https://github.com/wmfs/tymly-fastify-plugin/issues/504)) ([f5a945b](https://github.com/wmfs/tymly-fastify-plugin/commit/f5a945b3aed2690563a66af5c4b5c9ea28c269cc))
+
 # [1.98.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.97.0...v1.98.0) (2024-12-18)
 
 # [1.97.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.96.0...v1.97.0) (2024-12-18)
