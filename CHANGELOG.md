@@ -1,3 +1,10 @@
+## [1.100.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.99.0...v1.100.0) (2025-01-06)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency @fastify/cors to v10.0.2 ([#505](https://github.com/wmfs/tymly-fastify-plugin/issues/505)) ([d9ab796](https://github.com/wmfs/tymly-fastify-plugin/commit/d9ab796018890051bd1f84c6fa8cb9282c353ca1))
+* **deps:** update dependency uuid to v11.0.4 ([#506](https://github.com/wmfs/tymly-fastify-plugin/issues/506)) ([09df185](https://github.com/wmfs/tymly-fastify-plugin/commit/09df18522f007c20c65cea474dc00cc4344d965a))
+
 ## [1.99.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.98.0...v1.99.0) (2025-01-06)
 
 ### Build system dependencies :hammer:
