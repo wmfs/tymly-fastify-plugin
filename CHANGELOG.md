@@ -1,3 +1,9 @@
+## [1.104.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.103.0...v1.104.0) (2025-01-13)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency @fastify/multipart to v9.0.2 ([#516](https://github.com/wmfs/tymly-fastify-plugin/issues/516)) ([b5684d4](https://github.com/wmfs/tymly-fastify-plugin/commit/b5684d4c3255c13d4d331869dd39739325638062))
+
 ## [1.103.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.102.0...v1.103.0) (2025-01-13)
 
 ### Build system dependencies :hammer:
