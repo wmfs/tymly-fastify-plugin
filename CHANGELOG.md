@@ -1,3 +1,12 @@
+## [1.103.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.102.0...v1.103.0) (2025-01-13)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly to v1.291.0 ([#513](https://github.com/wmfs/tymly-fastify-plugin/issues/513)) ([2b94d7c](https://github.com/wmfs/tymly-fastify-plugin/commit/2b94d7c683e055c073aead14c49fe3bd796eeb89))
+* **deps-dev:** update dependency @wmfs/tymly-cardscript-plugin to v1.50.0 ([#514](https://github.com/wmfs/tymly-fastify-plugin/issues/514)) ([c0b84d2](https://github.com/wmfs/tymly-fastify-plugin/commit/c0b84d23c005b9f9b45f50bd90730f3b4a3b06de))
+* **deps:** update dependency @fastify/jwt to v9.0.3 ([#515](https://github.com/wmfs/tymly-fastify-plugin/issues/515)) ([c4f2aa6](https://github.com/wmfs/tymly-fastify-plugin/commit/c4f2aa687b2265fe7469e04f28ddecb1178d5b7d))
+* **deps:** update dependency @fastify/static to v8.0.4 ([#517](https://github.com/wmfs/tymly-fastify-plugin/issues/517)) ([e408a3a](https://github.com/wmfs/tymly-fastify-plugin/commit/e408a3aa38a6567051346f903ad94d9d1ef3835c))
+
 ## [1.102.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.101.0...v1.102.0) (2025-01-10)
 
 ### Build system dependencies :hammer:
