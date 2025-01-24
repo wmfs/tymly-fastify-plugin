@@ -1,3 +1,11 @@
+## [1.105.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.104.0...v1.105.0) (2025-01-24)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly to v1.292.0 ([#518](https://github.com/wmfs/tymly-fastify-plugin/issues/518)) ([f1994a9](https://github.com/wmfs/tymly-fastify-plugin/commit/f1994a916b2a3d89d22449412dbe8b51f9ebd11b))
+* **deps-dev:** update dependency mocha to v11.1.0 ([#519](https://github.com/wmfs/tymly-fastify-plugin/issues/519)) ([a278640](https://github.com/wmfs/tymly-fastify-plugin/commit/a278640575dfda69aaabadf44fa9c851f9af01c1))
+* **deps:** update dependency @fastify/multipart to v9.0.3 [security] ([#521](https://github.com/wmfs/tymly-fastify-plugin/issues/521)) ([89ee2f0](https://github.com/wmfs/tymly-fastify-plugin/commit/89ee2f04a9fdabf4a7b249eb700b98cdb120ff2d))
+
 ## [1.104.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.103.0...v1.104.0) (2025-01-13)
 
 ### Build system dependencies :hammer:
