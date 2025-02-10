@@ -1,3 +1,14 @@
+## [1.106.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.105.0...v1.106.0) (2025-02-10)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @semantic-release/exec to v7 ([#522](https://github.com/wmfs/tymly-fastify-plugin/issues/522)) ([c213111](https://github.com/wmfs/tymly-fastify-plugin/commit/c2131116db49e7032a8c8580c5a3b1a81ca89fd1))
+* **deps-dev:** update dependency @semantic-release/exec to v7.0.2 ([#523](https://github.com/wmfs/tymly-fastify-plugin/issues/523)) ([ea869b2](https://github.com/wmfs/tymly-fastify-plugin/commit/ea869b2a490c404900ccf018a0479b509cf1e5d3))
+* **deps-dev:** update dependency @semantic-release/exec to v7.0.3 ([#525](https://github.com/wmfs/tymly-fastify-plugin/issues/525)) ([c4a8339](https://github.com/wmfs/tymly-fastify-plugin/commit/c4a83399129171c72a1bac025d8f8e42e0e7a6e0))
+* **deps-dev:** update dependency semantic-release to v24.2.2 ([#527](https://github.com/wmfs/tymly-fastify-plugin/issues/527)) ([df1dc45](https://github.com/wmfs/tymly-fastify-plugin/commit/df1dc45de67ca0f994482873c261cd5023358721))
+* **deps:** update dependency @fastify/jwt to v9.0.4 ([#526](https://github.com/wmfs/tymly-fastify-plugin/issues/526)) ([7650dbf](https://github.com/wmfs/tymly-fastify-plugin/commit/7650dbf80e20c637465979fefb3f400941459147))
+* **deps:** update dependency @fastify/static to v8.1.0 ([#524](https://github.com/wmfs/tymly-fastify-plugin/issues/524)) ([69fddbb](https://github.com/wmfs/tymly-fastify-plugin/commit/69fddbbfa9e3265564a030dbefbc78894b5db0eb))
+
 ## [1.105.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.104.0...v1.105.0) (2025-01-24)
 
 ### Build system dependencies :hammer:
