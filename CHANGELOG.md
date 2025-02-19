@@ -1,3 +1,10 @@
+## [1.107.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.106.0...v1.107.0) (2025-02-19)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency semantic-release to v24.2.3 ([#528](https://github.com/wmfs/tymly-fastify-plugin/issues/528)) ([4bfcac8](https://github.com/wmfs/tymly-fastify-plugin/commit/4bfcac8867d07e3d11555a516991864d7543e356))
+* **deps:** update dependency @fastify/static to v8.1.1 ([#529](https://github.com/wmfs/tymly-fastify-plugin/issues/529)) ([59f73b2](https://github.com/wmfs/tymly-fastify-plugin/commit/59f73b2dc8439085fe57f39cf8e916c47a1aceeb))
+
 ## [1.106.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.105.0...v1.106.0) (2025-02-10)
 
 ### Build system dependencies :hammer:
