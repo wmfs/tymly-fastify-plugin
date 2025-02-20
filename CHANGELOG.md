@@ -1,3 +1,9 @@
+## [1.108.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.107.0...v1.108.0) (2025-02-20)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency uuid to v11.1.0 ([#530](https://github.com/wmfs/tymly-fastify-plugin/issues/530)) ([224591e](https://github.com/wmfs/tymly-fastify-plugin/commit/224591e71a697aaea0bbfb98ea2f727ba71aa169))
+
 ## [1.107.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.106.0...v1.107.0) (2025-02-19)
 
 ### Build system dependencies :hammer:
