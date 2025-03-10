@@ -1,3 +1,14 @@
+## [1.111.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.110.0...v1.111.0) (2025-03-10)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly to v1.296.0 ([#538](https://github.com/wmfs/tymly-fastify-plugin/issues/538)) ([bc9cd86](https://github.com/wmfs/tymly-fastify-plugin/commit/bc9cd8653956b69be5ce2dcff56da58138234fef))
+* **deps-dev:** update dependency @wmfs/tymly to v1.297.0 ([#541](https://github.com/wmfs/tymly-fastify-plugin/issues/541)) ([96238bd](https://github.com/wmfs/tymly-fastify-plugin/commit/96238bda7e3237e702719f59c3f6012f04304495))
+* **deps-dev:** update dependency @wmfs/tymly-rest-client-plugin to v1.28.0 ([#539](https://github.com/wmfs/tymly-fastify-plugin/issues/539)) ([664a00d](https://github.com/wmfs/tymly-fastify-plugin/commit/664a00d76549ba38b28a9b5301efd4a08869e259))
+* **deps-dev:** update dependency @wmfs/tymly-solr-plugin to v2.49.0 ([#540](https://github.com/wmfs/tymly-fastify-plugin/issues/540)) ([c7789a6](https://github.com/wmfs/tymly-fastify-plugin/commit/c7789a68400fe2dbeb28c7b631e18b8f0022f78e))
+* **deps-dev:** update dependency chai-string to v1.6.0 ([#543](https://github.com/wmfs/tymly-fastify-plugin/issues/543)) ([c316d81](https://github.com/wmfs/tymly-fastify-plugin/commit/c316d8199458405f3bc67ad90863976398867595))
+* **deps:** update dependency axios to v1.8.2 [security] ([#544](https://github.com/wmfs/tymly-fastify-plugin/issues/544)) ([70d8baa](https://github.com/wmfs/tymly-fastify-plugin/commit/70d8baa80c20218c194f097fc24d92ee8a1391a1))
+
 ## [1.110.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.109.0...v1.110.0) (2025-02-28)
 
 ### Build system dependencies :hammer:
