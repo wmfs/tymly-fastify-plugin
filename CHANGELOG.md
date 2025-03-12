@@ -1,3 +1,12 @@
+## [1.112.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.111.0...v1.112.0) (2025-03-12)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly to v1.298.0 ([#545](https://github.com/wmfs/tymly-fastify-plugin/issues/545)) ([cc6d84a](https://github.com/wmfs/tymly-fastify-plugin/commit/cc6d84a540eb22bfc3ac86497e69cc9c21f0c0f7))
+* **deps-dev:** update dependency @wmfs/tymly-rest-client-plugin to v1.29.0 ([#546](https://github.com/wmfs/tymly-fastify-plugin/issues/546)) ([d9b81d4](https://github.com/wmfs/tymly-fastify-plugin/commit/d9b81d426c287644d50035c8097ba0f1eff20a75))
+* **deps-dev:** update dependency @wmfs/tymly-solr-plugin to v2.50.0 ([#547](https://github.com/wmfs/tymly-fastify-plugin/issues/547)) ([10662b6](https://github.com/wmfs/tymly-fastify-plugin/commit/10662b671d0a7f056a204f6bb2bfd7ae451063f0))
+* **deps:** update dependency @fastify/cors to v11 ([#537](https://github.com/wmfs/tymly-fastify-plugin/issues/537)) ([31ad9fb](https://github.com/wmfs/tymly-fastify-plugin/commit/31ad9fb067049b655ba566c7594bb74c4e8ae924))
+
 ## [1.111.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.110.0...v1.111.0) (2025-03-10)
 
 ### Build system dependencies :hammer:
