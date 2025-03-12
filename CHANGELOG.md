@@ -1,3 +1,9 @@
+## [1.116.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.115.0...v1.116.0) (2025-03-12)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency @fastify/cors to v11 ([#551](https://github.com/wmfs/tymly-fastify-plugin/issues/551)) ([2301245](https://github.com/wmfs/tymly-fastify-plugin/commit/23012458fc02ec883b0abf5d31d1b7f5ccc469f8))
+
 ## [1.115.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.114.0...v1.115.0) (2025-03-12)
 
 ### Build system dependencies :hammer:
