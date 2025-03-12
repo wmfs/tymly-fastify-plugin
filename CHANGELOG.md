@@ -1,3 +1,9 @@
+## [1.115.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.114.0...v1.115.0) (2025-03-12)
+
+### Build system dependencies :hammer:
+
+* **deps:** rollback dependency @fastify/cors to v10.1.0 ([b7aa832](https://github.com/wmfs/tymly-fastify-plugin/commit/b7aa832c4f22bbec81322c80c10aa9cdfcbe8ce0))
+
 ## [1.114.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.113.0...v1.114.0) (2025-03-12)
 
 ### Build system dependencies :hammer:
