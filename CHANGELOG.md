@@ -1,3 +1,10 @@
+## [1.117.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.116.0...v1.117.0) (2025-03-17)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly-rest-client-plugin to v1.30.0 ([#550](https://github.com/wmfs/tymly-fastify-plugin/issues/550)) ([7ec0877](https://github.com/wmfs/tymly-fastify-plugin/commit/7ec0877518e7c26a810d97fa33b86a5487bd7187))
+* **deps:** update dependency @fastify/jwt to v9.1.0 ([#552](https://github.com/wmfs/tymly-fastify-plugin/issues/552)) ([19f5080](https://github.com/wmfs/tymly-fastify-plugin/commit/19f50805af7ca8c18f9ad685bc76d523922e7064))
+
 ## [1.116.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.115.0...v1.116.0) (2025-03-12)
 
 ### Build system dependencies :hammer:
