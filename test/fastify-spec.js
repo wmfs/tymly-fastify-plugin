@@ -58,7 +58,6 @@ describe('Fastify tests', function () {
             path.resolve(__dirname, './fixtures/plugins/it-lives-plugin'),
             path.resolve(__dirname, './fixtures/plugins/endpoint-plugin'),
             require.resolve('@wmfs/tymly-rbac-plugin'),
-            require.resolve('@wmfs/tymly-solr-plugin'),
             require.resolve('@wmfs/tymly-cardscript-plugin'),
             require.resolve('@wmfs/tymly-rest-client-plugin')
           ],
