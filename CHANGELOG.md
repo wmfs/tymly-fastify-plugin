@@ -1,3 +1,18 @@
+## [1.124.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.123.0...v1.124.0) (2025-05-19)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @semantic-release/exec to v7.1.0 ([#572](https://github.com/wmfs/tymly-fastify-plugin/issues/572)) ([408e84c](https://github.com/wmfs/tymly-fastify-plugin/commit/408e84c853ec774d1e79f626a85e697bbf7ace4e))
+* **deps-dev:** update dependency @wmfs/tymly to v1.308.0 ([#569](https://github.com/wmfs/tymly-fastify-plugin/issues/569)) ([4de6711](https://github.com/wmfs/tymly-fastify-plugin/commit/4de6711c8bbcab0883ef2eefef150f076d71fa03))
+* **deps-dev:** update dependency @wmfs/tymly to v1.310.0 ([#576](https://github.com/wmfs/tymly-fastify-plugin/issues/576)) ([901ac6a](https://github.com/wmfs/tymly-fastify-plugin/commit/901ac6a46834f0bf063f1255d3ccf72f1fbd79fb))
+* **deps-dev:** update dependency @wmfs/tymly-rbac-plugin to v1.32.0 ([#577](https://github.com/wmfs/tymly-fastify-plugin/issues/577)) ([c0c6286](https://github.com/wmfs/tymly-fastify-plugin/commit/c0c6286d9cab48d4912880eb22466cb38b8abcde))
+* **deps-dev:** update dependency @wmfs/tymly-rest-client-plugin to v1.32.0 ([#570](https://github.com/wmfs/tymly-fastify-plugin/issues/570)) ([5ab862b](https://github.com/wmfs/tymly-fastify-plugin/commit/5ab862b37fd0d390f09d075f256714ef8d913f8f))
+* **deps-dev:** update dependency mocha to v11.2.2 ([#571](https://github.com/wmfs/tymly-fastify-plugin/issues/571)) ([4a3fcfe](https://github.com/wmfs/tymly-fastify-plugin/commit/4a3fcfe685eb37bb544f450d91f70e33c43ac326))
+* **deps-dev:** update dependency mocha to v11.3.0 ([#578](https://github.com/wmfs/tymly-fastify-plugin/issues/578)) ([c46b3a8](https://github.com/wmfs/tymly-fastify-plugin/commit/c46b3a8a35d0e6ffba83f1fd452b7cb94496e431))
+* **deps-dev:** update dependency semantic-release to v24.2.4 ([#573](https://github.com/wmfs/tymly-fastify-plugin/issues/573)) ([a8d5e8a](https://github.com/wmfs/tymly-fastify-plugin/commit/a8d5e8a9f1d72638dd5e6ed0d6c79729b7ac8daa))
+* **deps:** update dependency debug to v4.4.1 ([#574](https://github.com/wmfs/tymly-fastify-plugin/issues/574)) ([b17fb86](https://github.com/wmfs/tymly-fastify-plugin/commit/b17fb868208fef569bcc5086541c71c3f3fb195f))
+* **deps:** update dependency fastify to v5.3.3 ([#575](https://github.com/wmfs/tymly-fastify-plugin/issues/575)) ([b32c9cd](https://github.com/wmfs/tymly-fastify-plugin/commit/b32c9cd536b933c0671343f5ecd7114f281b6cb1))
+
 ## [1.123.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.122.0...v1.123.0) (2025-04-25)
 
 ### Build system dependencies :hammer:
