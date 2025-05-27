@@ -1,3 +1,14 @@
+## [1.125.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.124.0...v1.125.0) (2025-05-27)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly to v1.311.0 ([#579](https://github.com/wmfs/tymly-fastify-plugin/issues/579)) ([eaac328](https://github.com/wmfs/tymly-fastify-plugin/commit/eaac328d826642827128ac9ea7d28e8a2f08f635))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v9 ([#581](https://github.com/wmfs/tymly-fastify-plugin/issues/581)) ([38c8ed8](https://github.com/wmfs/tymly-fastify-plugin/commit/38c8ed87b0cd53b6c98c24a3738ab68276c4a413))
+* **deps-dev:** update dependency mocha to v11.4.0 ([#580](https://github.com/wmfs/tymly-fastify-plugin/issues/580)) ([cc8a196](https://github.com/wmfs/tymly-fastify-plugin/commit/cc8a196b0f92dcabf979b5534a730dee0060a36a))
+* **deps-dev:** update dependency mocha to v11.5.0 ([#584](https://github.com/wmfs/tymly-fastify-plugin/issues/584)) ([f099a70](https://github.com/wmfs/tymly-fastify-plugin/commit/f099a703bf1bbd2a68c57cc248a874eedc7b2a4d))
+* **deps-dev:** update dependency semantic-release to v24.2.5 ([#583](https://github.com/wmfs/tymly-fastify-plugin/issues/583)) ([3411aaf](https://github.com/wmfs/tymly-fastify-plugin/commit/3411aaf25d1fbcf5a16e02467c1eeffd4fcb6357))
+* **deps:** update dependency @fastify/static to v8.2.0 ([#582](https://github.com/wmfs/tymly-fastify-plugin/issues/582)) ([3326598](https://github.com/wmfs/tymly-fastify-plugin/commit/332659891ae5e8f4d90e60ff1f328dec81e055d1))
+
 ## [1.124.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.123.0...v1.124.0) (2025-05-19)
 
 ### Build system dependencies :hammer:
