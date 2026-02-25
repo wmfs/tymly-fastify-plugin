@@ -1,3 +1,624 @@
+## [1.128.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.127.0...v1.128.0) (2025-07-23)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly to v1.313.0 ([#593](https://github.com/wmfs/tymly-fastify-plugin/issues/593)) ([1bf307f](https://github.com/wmfs/tymly-fastify-plugin/commit/1bf307f10e5df4ef486fec98ae816bf2b22b3d65))
+* **deps-dev:** update dependency @wmfs/tymly to v1.314.0 ([#595](https://github.com/wmfs/tymly-fastify-plugin/issues/595)) ([e19e629](https://github.com/wmfs/tymly-fastify-plugin/commit/e19e6296c60fb4b60d5c8e8c5bc6e7840a3c2eb6))
+* **deps-dev:** update dependency @wmfs/tymly to v1.315.0 ([#597](https://github.com/wmfs/tymly-fastify-plugin/issues/597)) ([b50eb19](https://github.com/wmfs/tymly-fastify-plugin/commit/b50eb194a9571bf36fe2d675fae9996a75a7bfc2))
+* **deps-dev:** update dependency @wmfs/tymly-rest-client-plugin to v1.33.0 ([#589](https://github.com/wmfs/tymly-fastify-plugin/issues/589)) ([b368395](https://github.com/wmfs/tymly-fastify-plugin/commit/b3683956306295cc5acf227bb51ff3fb9489e756))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v9.1.0 ([#594](https://github.com/wmfs/tymly-fastify-plugin/issues/594)) ([75a6276](https://github.com/wmfs/tymly-fastify-plugin/commit/75a6276d91660a8ddb31a2112759f94570cd7e3b))
+* **deps-dev:** update dependency mocha to v11.7.0 ([#590](https://github.com/wmfs/tymly-fastify-plugin/issues/590)) ([0e87449](https://github.com/wmfs/tymly-fastify-plugin/commit/0e8744982960a5f5cf77ce504dfbe212c5976ccd))
+* **deps-dev:** update dependency mocha to v11.7.1 ([#591](https://github.com/wmfs/tymly-fastify-plugin/issues/591)) ([75b00c2](https://github.com/wmfs/tymly-fastify-plugin/commit/75b00c243b9b444a55bf75e36ffe6d67671eb9f6))
+* **deps-dev:** update dependency semantic-release to v24.2.6 ([#592](https://github.com/wmfs/tymly-fastify-plugin/issues/592)) ([f37296a](https://github.com/wmfs/tymly-fastify-plugin/commit/f37296ab74c802722ca9c72fcfff1c4c97ca1311))
+* **deps-dev:** update dependency semantic-release to v24.2.7 ([#596](https://github.com/wmfs/tymly-fastify-plugin/issues/596)) ([4743088](https://github.com/wmfs/tymly-fastify-plugin/commit/47430883f3709bb374290e7e911c642e270c6216))
+* **deps:** update axios from 1.10.0 to 1.11.0 ([e0dc757](https://github.com/wmfs/tymly-fastify-plugin/commit/e0dc757eda8791d061f036edcf24471882672f77))
+
+## [1.127.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.126.0...v1.127.0) (2025-06-16)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly to v1.312.0 ([#587](https://github.com/wmfs/tymly-fastify-plugin/issues/587)) ([7698329](https://github.com/wmfs/tymly-fastify-plugin/commit/76983292d9c098b9731ad8b5704babbe961818d6))
+* **deps:** update dependency axios to v1.10.0 ([#588](https://github.com/wmfs/tymly-fastify-plugin/issues/588)) ([90f8656](https://github.com/wmfs/tymly-fastify-plugin/commit/90f865626ccdf80afb26db5ac13829ef7db6fc32))
+
+## [1.126.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.125.0...v1.126.0) (2025-06-13)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency mocha to v11.6.0 ([#585](https://github.com/wmfs/tymly-fastify-plugin/issues/585)) ([f498912](https://github.com/wmfs/tymly-fastify-plugin/commit/f498912ca562b1111815e9aa7744d4c857f3db57))
+* **deps:** update dependency fastify to v5.4.0 ([#586](https://github.com/wmfs/tymly-fastify-plugin/issues/586)) ([1d5063c](https://github.com/wmfs/tymly-fastify-plugin/commit/1d5063c6e52f403fd77853e2b328b235f84e962c))
+
+## [1.125.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.124.0...v1.125.0) (2025-05-27)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly to v1.311.0 ([#579](https://github.com/wmfs/tymly-fastify-plugin/issues/579)) ([eaac328](https://github.com/wmfs/tymly-fastify-plugin/commit/eaac328d826642827128ac9ea7d28e8a2f08f635))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v9 ([#581](https://github.com/wmfs/tymly-fastify-plugin/issues/581)) ([38c8ed8](https://github.com/wmfs/tymly-fastify-plugin/commit/38c8ed87b0cd53b6c98c24a3738ab68276c4a413))
+* **deps-dev:** update dependency mocha to v11.4.0 ([#580](https://github.com/wmfs/tymly-fastify-plugin/issues/580)) ([cc8a196](https://github.com/wmfs/tymly-fastify-plugin/commit/cc8a196b0f92dcabf979b5534a730dee0060a36a))
+* **deps-dev:** update dependency mocha to v11.5.0 ([#584](https://github.com/wmfs/tymly-fastify-plugin/issues/584)) ([f099a70](https://github.com/wmfs/tymly-fastify-plugin/commit/f099a703bf1bbd2a68c57cc248a874eedc7b2a4d))
+* **deps-dev:** update dependency semantic-release to v24.2.5 ([#583](https://github.com/wmfs/tymly-fastify-plugin/issues/583)) ([3411aaf](https://github.com/wmfs/tymly-fastify-plugin/commit/3411aaf25d1fbcf5a16e02467c1eeffd4fcb6357))
+* **deps:** update dependency @fastify/static to v8.2.0 ([#582](https://github.com/wmfs/tymly-fastify-plugin/issues/582)) ([3326598](https://github.com/wmfs/tymly-fastify-plugin/commit/332659891ae5e8f4d90e60ff1f328dec81e055d1))
+
+## [1.124.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.123.0...v1.124.0) (2025-05-19)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @semantic-release/exec to v7.1.0 ([#572](https://github.com/wmfs/tymly-fastify-plugin/issues/572)) ([408e84c](https://github.com/wmfs/tymly-fastify-plugin/commit/408e84c853ec774d1e79f626a85e697bbf7ace4e))
+* **deps-dev:** update dependency @wmfs/tymly to v1.308.0 ([#569](https://github.com/wmfs/tymly-fastify-plugin/issues/569)) ([4de6711](https://github.com/wmfs/tymly-fastify-plugin/commit/4de6711c8bbcab0883ef2eefef150f076d71fa03))
+* **deps-dev:** update dependency @wmfs/tymly to v1.310.0 ([#576](https://github.com/wmfs/tymly-fastify-plugin/issues/576)) ([901ac6a](https://github.com/wmfs/tymly-fastify-plugin/commit/901ac6a46834f0bf063f1255d3ccf72f1fbd79fb))
+* **deps-dev:** update dependency @wmfs/tymly-rbac-plugin to v1.32.0 ([#577](https://github.com/wmfs/tymly-fastify-plugin/issues/577)) ([c0c6286](https://github.com/wmfs/tymly-fastify-plugin/commit/c0c6286d9cab48d4912880eb22466cb38b8abcde))
+* **deps-dev:** update dependency @wmfs/tymly-rest-client-plugin to v1.32.0 ([#570](https://github.com/wmfs/tymly-fastify-plugin/issues/570)) ([5ab862b](https://github.com/wmfs/tymly-fastify-plugin/commit/5ab862b37fd0d390f09d075f256714ef8d913f8f))
+* **deps-dev:** update dependency mocha to v11.2.2 ([#571](https://github.com/wmfs/tymly-fastify-plugin/issues/571)) ([4a3fcfe](https://github.com/wmfs/tymly-fastify-plugin/commit/4a3fcfe685eb37bb544f450d91f70e33c43ac326))
+* **deps-dev:** update dependency mocha to v11.3.0 ([#578](https://github.com/wmfs/tymly-fastify-plugin/issues/578)) ([c46b3a8](https://github.com/wmfs/tymly-fastify-plugin/commit/c46b3a8a35d0e6ffba83f1fd452b7cb94496e431))
+* **deps-dev:** update dependency semantic-release to v24.2.4 ([#573](https://github.com/wmfs/tymly-fastify-plugin/issues/573)) ([a8d5e8a](https://github.com/wmfs/tymly-fastify-plugin/commit/a8d5e8a9f1d72638dd5e6ed0d6c79729b7ac8daa))
+* **deps:** update dependency debug to v4.4.1 ([#574](https://github.com/wmfs/tymly-fastify-plugin/issues/574)) ([b17fb86](https://github.com/wmfs/tymly-fastify-plugin/commit/b17fb868208fef569bcc5086541c71c3f3fb195f))
+* **deps:** update dependency fastify to v5.3.3 ([#575](https://github.com/wmfs/tymly-fastify-plugin/issues/575)) ([b32c9cd](https://github.com/wmfs/tymly-fastify-plugin/commit/b32c9cd536b933c0671343f5ecd7114f281b6cb1))
+
+## [1.123.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.122.0...v1.123.0) (2025-04-25)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency axios to v1.9.0 ([#568](https://github.com/wmfs/tymly-fastify-plugin/issues/568)) ([4ca8cf3](https://github.com/wmfs/tymly-fastify-plugin/commit/4ca8cf36d09ba516bd4e4c371eb7dfbfa539761c))
+
+## [1.122.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.121.0...v1.122.0) (2025-04-22)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency fastify to v5.3.2 [security] ([#567](https://github.com/wmfs/tymly-fastify-plugin/issues/567)) ([56ebbc2](https://github.com/wmfs/tymly-fastify-plugin/commit/56ebbc2f06b5b2e408f417ef53dc10ae648c077c))
+
+## [1.121.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.120.0...v1.121.0) (2025-04-14)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly to v1.303.0 ([#561](https://github.com/wmfs/tymly-fastify-plugin/issues/561)) ([bd4f031](https://github.com/wmfs/tymly-fastify-plugin/commit/bd4f031f212848a63d8b6553f89793bb8360de81))
+* **deps-dev:** update dependency @wmfs/tymly to v1.305.0 ([#562](https://github.com/wmfs/tymly-fastify-plugin/issues/562)) ([cfdda63](https://github.com/wmfs/tymly-fastify-plugin/commit/cfdda6332c02326eb6f2fa7ba4a11b07db5a3a84))
+* **deps-dev:** update dependency @wmfs/tymly to v1.306.0 ([#563](https://github.com/wmfs/tymly-fastify-plugin/issues/563)) ([f47e83c](https://github.com/wmfs/tymly-fastify-plugin/commit/f47e83c1cc88898bf6978ea61202123742b71d96))
+* **deps-dev:** update dependency @wmfs/tymly to v1.307.0 ([#564](https://github.com/wmfs/tymly-fastify-plugin/issues/564)) ([124084e](https://github.com/wmfs/tymly-fastify-plugin/commit/124084ef8046cda965af63c7520b33c01e54af52))
+* **deps:** update dependency fastify to v5.3.0 ([#565](https://github.com/wmfs/tymly-fastify-plugin/issues/565)) ([d3256b3](https://github.com/wmfs/tymly-fastify-plugin/commit/d3256b30459f7119e730ad1b98e8960dbbe05099))
+
+## [1.120.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.119.0...v1.120.0) (2025-03-31)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency fastify to v5.2.2 ([#560](https://github.com/wmfs/tymly-fastify-plugin/issues/560)) ([9f18acb](https://github.com/wmfs/tymly-fastify-plugin/commit/9f18acbc3d52932c4a921cb281cdbf328db16b87))
+
+## [1.119.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.118.0...v1.119.0) (2025-03-31)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly to v1.300.0 ([#557](https://github.com/wmfs/tymly-fastify-plugin/issues/557)) ([73bbe31](https://github.com/wmfs/tymly-fastify-plugin/commit/73bbe312a4eaeb38bdfbe5ed1e683d8048374b11))
+* **deps-dev:** update dependency @wmfs/tymly-rest-client-plugin to v1.31.0 ([#558](https://github.com/wmfs/tymly-fastify-plugin/issues/558)) ([e7a9812](https://github.com/wmfs/tymly-fastify-plugin/commit/e7a9812243b520b53d3cf144b942f950c5b31e54))
+* **deps:** update dependency @fastify/cors to v11.0.1 ([#559](https://github.com/wmfs/tymly-fastify-plugin/issues/559)) ([bad0f8c](https://github.com/wmfs/tymly-fastify-plugin/commit/bad0f8cb8bf66ac31502acf1721c771e8c630bcf))
+
+## [1.118.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.117.0...v1.118.0) (2025-03-20)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** remove dependency @wmfs/tymly-solr-plugin ([#555](https://github.com/wmfs/tymly-fastify-plugin/issues/555)) ([ae5fbed](https://github.com/wmfs/tymly-fastify-plugin/commit/ae5fbed69a8793ed28772f1ce1405d57d9fe37ca))
+* **deps-dev:** update dependency @wmfs/tymly to v1.299.0 ([#553](https://github.com/wmfs/tymly-fastify-plugin/issues/553)) ([50aec9f](https://github.com/wmfs/tymly-fastify-plugin/commit/50aec9f31f7a232713c861010dd6fc0df0e04bd3))
+* **deps:** update dependency axios to v1.8.4 ([#556](https://github.com/wmfs/tymly-fastify-plugin/issues/556)) ([e91b0b0](https://github.com/wmfs/tymly-fastify-plugin/commit/e91b0b0386b127269572579eff00845c86576d24))
+
+## [1.117.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.116.0...v1.117.0) (2025-03-17)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly-rest-client-plugin to v1.30.0 ([#550](https://github.com/wmfs/tymly-fastify-plugin/issues/550)) ([7ec0877](https://github.com/wmfs/tymly-fastify-plugin/commit/7ec0877518e7c26a810d97fa33b86a5487bd7187))
+* **deps:** update dependency @fastify/jwt to v9.1.0 ([#552](https://github.com/wmfs/tymly-fastify-plugin/issues/552)) ([19f5080](https://github.com/wmfs/tymly-fastify-plugin/commit/19f50805af7ca8c18f9ad685bc76d523922e7064))
+
+## [1.116.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.115.0...v1.116.0) (2025-03-12)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency @fastify/cors to v11 ([#551](https://github.com/wmfs/tymly-fastify-plugin/issues/551)) ([2301245](https://github.com/wmfs/tymly-fastify-plugin/commit/23012458fc02ec883b0abf5d31d1b7f5ccc469f8))
+
+## [1.115.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.114.0...v1.115.0) (2025-03-12)
+
+### Build system dependencies :hammer:
+
+* **deps:** rollback dependency @fastify/cors to v10.1.0 ([b7aa832](https://github.com/wmfs/tymly-fastify-plugin/commit/b7aa832c4f22bbec81322c80c10aa9cdfcbe8ce0))
+
+## [1.114.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.113.0...v1.114.0) (2025-03-12)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency axios to v1.8.3 ([#549](https://github.com/wmfs/tymly-fastify-plugin/issues/549)) ([89457c6](https://github.com/wmfs/tymly-fastify-plugin/commit/89457c6710ec2358328729797f474e1a0da43667))
+
+## [1.113.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.112.0...v1.113.0) (2025-03-12)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly-solr-plugin to v2.51.0 ([#548](https://github.com/wmfs/tymly-fastify-plugin/issues/548)) ([57432d7](https://github.com/wmfs/tymly-fastify-plugin/commit/57432d7fad78fc3f59d7cdb1c2304f955142293b))
+* **deps:** update dependency axios to v1.8.2 ([#542](https://github.com/wmfs/tymly-fastify-plugin/issues/542)) ([f473ae1](https://github.com/wmfs/tymly-fastify-plugin/commit/f473ae1dfe4aaf04c8090925140690d2d5942652))
+
+## [1.112.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.111.0...v1.112.0) (2025-03-12)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly to v1.298.0 ([#545](https://github.com/wmfs/tymly-fastify-plugin/issues/545)) ([cc6d84a](https://github.com/wmfs/tymly-fastify-plugin/commit/cc6d84a540eb22bfc3ac86497e69cc9c21f0c0f7))
+* **deps-dev:** update dependency @wmfs/tymly-rest-client-plugin to v1.29.0 ([#546](https://github.com/wmfs/tymly-fastify-plugin/issues/546)) ([d9b81d4](https://github.com/wmfs/tymly-fastify-plugin/commit/d9b81d426c287644d50035c8097ba0f1eff20a75))
+* **deps-dev:** update dependency @wmfs/tymly-solr-plugin to v2.50.0 ([#547](https://github.com/wmfs/tymly-fastify-plugin/issues/547)) ([10662b6](https://github.com/wmfs/tymly-fastify-plugin/commit/10662b671d0a7f056a204f6bb2bfd7ae451063f0))
+* **deps:** update dependency @fastify/cors to v11 ([#537](https://github.com/wmfs/tymly-fastify-plugin/issues/537)) ([31ad9fb](https://github.com/wmfs/tymly-fastify-plugin/commit/31ad9fb067049b655ba566c7594bb74c4e8ae924))
+
+## [1.111.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.110.0...v1.111.0) (2025-03-10)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly to v1.296.0 ([#538](https://github.com/wmfs/tymly-fastify-plugin/issues/538)) ([bc9cd86](https://github.com/wmfs/tymly-fastify-plugin/commit/bc9cd8653956b69be5ce2dcff56da58138234fef))
+* **deps-dev:** update dependency @wmfs/tymly to v1.297.0 ([#541](https://github.com/wmfs/tymly-fastify-plugin/issues/541)) ([96238bd](https://github.com/wmfs/tymly-fastify-plugin/commit/96238bda7e3237e702719f59c3f6012f04304495))
+* **deps-dev:** update dependency @wmfs/tymly-rest-client-plugin to v1.28.0 ([#539](https://github.com/wmfs/tymly-fastify-plugin/issues/539)) ([664a00d](https://github.com/wmfs/tymly-fastify-plugin/commit/664a00d76549ba38b28a9b5301efd4a08869e259))
+* **deps-dev:** update dependency @wmfs/tymly-solr-plugin to v2.49.0 ([#540](https://github.com/wmfs/tymly-fastify-plugin/issues/540)) ([c7789a6](https://github.com/wmfs/tymly-fastify-plugin/commit/c7789a68400fe2dbeb28c7b631e18b8f0022f78e))
+* **deps-dev:** update dependency chai-string to v1.6.0 ([#543](https://github.com/wmfs/tymly-fastify-plugin/issues/543)) ([c316d81](https://github.com/wmfs/tymly-fastify-plugin/commit/c316d8199458405f3bc67ad90863976398867595))
+* **deps:** update dependency axios to v1.8.2 [security] ([#544](https://github.com/wmfs/tymly-fastify-plugin/issues/544)) ([70d8baa](https://github.com/wmfs/tymly-fastify-plugin/commit/70d8baa80c20218c194f097fc24d92ee8a1391a1))
+
+## [1.110.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.109.0...v1.110.0) (2025-02-28)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly to v1.295.0 ([#535](https://github.com/wmfs/tymly-fastify-plugin/issues/535)) ([b93bbde](https://github.com/wmfs/tymly-fastify-plugin/commit/b93bbde383ade5858b9a9e6f492e045ab3fbdb63))
+* **deps:** update dependency axios to v1.8.1 ([#534](https://github.com/wmfs/tymly-fastify-plugin/issues/534)) ([c9f5629](https://github.com/wmfs/tymly-fastify-plugin/commit/c9f562992666276113ae7f266d9e7cb5413dc247))
+
+## [1.109.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.108.0...v1.109.0) (2025-02-25)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly to v1.294.0 ([#531](https://github.com/wmfs/tymly-fastify-plugin/issues/531)) ([1b121a6](https://github.com/wmfs/tymly-fastify-plugin/commit/1b121a6aa1c6589889e2422088088719362599a5))
+* **deps-dev:** update dependency @wmfs/tymly-cardscript-plugin to v1.51.0 ([#532](https://github.com/wmfs/tymly-fastify-plugin/issues/532)) ([3f6c023](https://github.com/wmfs/tymly-fastify-plugin/commit/3f6c023c964e21205b96b5ec6c1f078431f6f6e2))
+* **deps:** update dependency @fastify/cors to v10.1.0 ([#533](https://github.com/wmfs/tymly-fastify-plugin/issues/533)) ([b575049](https://github.com/wmfs/tymly-fastify-plugin/commit/b575049f8407d3f0f50308813c1c6c1bdc4670f8))
+
+## [1.108.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.107.0...v1.108.0) (2025-02-20)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency uuid to v11.1.0 ([#530](https://github.com/wmfs/tymly-fastify-plugin/issues/530)) ([224591e](https://github.com/wmfs/tymly-fastify-plugin/commit/224591e71a697aaea0bbfb98ea2f727ba71aa169))
+
+## [1.107.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.106.0...v1.107.0) (2025-02-19)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency semantic-release to v24.2.3 ([#528](https://github.com/wmfs/tymly-fastify-plugin/issues/528)) ([4bfcac8](https://github.com/wmfs/tymly-fastify-plugin/commit/4bfcac8867d07e3d11555a516991864d7543e356))
+* **deps:** update dependency @fastify/static to v8.1.1 ([#529](https://github.com/wmfs/tymly-fastify-plugin/issues/529)) ([59f73b2](https://github.com/wmfs/tymly-fastify-plugin/commit/59f73b2dc8439085fe57f39cf8e916c47a1aceeb))
+
+## [1.106.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.105.0...v1.106.0) (2025-02-10)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @semantic-release/exec to v7 ([#522](https://github.com/wmfs/tymly-fastify-plugin/issues/522)) ([c213111](https://github.com/wmfs/tymly-fastify-plugin/commit/c2131116db49e7032a8c8580c5a3b1a81ca89fd1))
+* **deps-dev:** update dependency @semantic-release/exec to v7.0.2 ([#523](https://github.com/wmfs/tymly-fastify-plugin/issues/523)) ([ea869b2](https://github.com/wmfs/tymly-fastify-plugin/commit/ea869b2a490c404900ccf018a0479b509cf1e5d3))
+* **deps-dev:** update dependency @semantic-release/exec to v7.0.3 ([#525](https://github.com/wmfs/tymly-fastify-plugin/issues/525)) ([c4a8339](https://github.com/wmfs/tymly-fastify-plugin/commit/c4a83399129171c72a1bac025d8f8e42e0e7a6e0))
+* **deps-dev:** update dependency semantic-release to v24.2.2 ([#527](https://github.com/wmfs/tymly-fastify-plugin/issues/527)) ([df1dc45](https://github.com/wmfs/tymly-fastify-plugin/commit/df1dc45de67ca0f994482873c261cd5023358721))
+* **deps:** update dependency @fastify/jwt to v9.0.4 ([#526](https://github.com/wmfs/tymly-fastify-plugin/issues/526)) ([7650dbf](https://github.com/wmfs/tymly-fastify-plugin/commit/7650dbf80e20c637465979fefb3f400941459147))
+* **deps:** update dependency @fastify/static to v8.1.0 ([#524](https://github.com/wmfs/tymly-fastify-plugin/issues/524)) ([69fddbb](https://github.com/wmfs/tymly-fastify-plugin/commit/69fddbbfa9e3265564a030dbefbc78894b5db0eb))
+
+## [1.105.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.104.0...v1.105.0) (2025-01-24)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly to v1.292.0 ([#518](https://github.com/wmfs/tymly-fastify-plugin/issues/518)) ([f1994a9](https://github.com/wmfs/tymly-fastify-plugin/commit/f1994a916b2a3d89d22449412dbe8b51f9ebd11b))
+* **deps-dev:** update dependency mocha to v11.1.0 ([#519](https://github.com/wmfs/tymly-fastify-plugin/issues/519)) ([a278640](https://github.com/wmfs/tymly-fastify-plugin/commit/a278640575dfda69aaabadf44fa9c851f9af01c1))
+* **deps:** update dependency @fastify/multipart to v9.0.3 [security] ([#521](https://github.com/wmfs/tymly-fastify-plugin/issues/521)) ([89ee2f0](https://github.com/wmfs/tymly-fastify-plugin/commit/89ee2f04a9fdabf4a7b249eb700b98cdb120ff2d))
+
+## [1.104.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.103.0...v1.104.0) (2025-01-13)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency @fastify/multipart to v9.0.2 ([#516](https://github.com/wmfs/tymly-fastify-plugin/issues/516)) ([b5684d4](https://github.com/wmfs/tymly-fastify-plugin/commit/b5684d4c3255c13d4d331869dd39739325638062))
+
+## [1.103.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.102.0...v1.103.0) (2025-01-13)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly to v1.291.0 ([#513](https://github.com/wmfs/tymly-fastify-plugin/issues/513)) ([2b94d7c](https://github.com/wmfs/tymly-fastify-plugin/commit/2b94d7c683e055c073aead14c49fe3bd796eeb89))
+* **deps-dev:** update dependency @wmfs/tymly-cardscript-plugin to v1.50.0 ([#514](https://github.com/wmfs/tymly-fastify-plugin/issues/514)) ([c0b84d2](https://github.com/wmfs/tymly-fastify-plugin/commit/c0b84d23c005b9f9b45f50bd90730f3b4a3b06de))
+* **deps:** update dependency @fastify/jwt to v9.0.3 ([#515](https://github.com/wmfs/tymly-fastify-plugin/issues/515)) ([c4f2aa6](https://github.com/wmfs/tymly-fastify-plugin/commit/c4f2aa687b2265fe7469e04f28ddecb1178d5b7d))
+* **deps:** update dependency @fastify/static to v8.0.4 ([#517](https://github.com/wmfs/tymly-fastify-plugin/issues/517)) ([e408a3a](https://github.com/wmfs/tymly-fastify-plugin/commit/e408a3aa38a6567051346f903ad94d9d1ef3835c))
+
+## [1.102.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.101.0...v1.102.0) (2025-01-10)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly to v1.288.0 ([#509](https://github.com/wmfs/tymly-fastify-plugin/issues/509)) ([7ba4dc5](https://github.com/wmfs/tymly-fastify-plugin/commit/7ba4dc57d2b94984dbfb6eb477f35d8b63a96a3e))
+* **deps-dev:** update dependency @wmfs/tymly to v1.289.0 ([#511](https://github.com/wmfs/tymly-fastify-plugin/issues/511)) ([52cb35e](https://github.com/wmfs/tymly-fastify-plugin/commit/52cb35ebab6c0f8de86d41f96e665640b67a1f43))
+* **deps-dev:** update dependency @wmfs/tymly-cardscript-plugin to v1.49.0 ([#510](https://github.com/wmfs/tymly-fastify-plugin/issues/510)) ([4cb2af1](https://github.com/wmfs/tymly-fastify-plugin/commit/4cb2af1a1f19db8506f0cfad4eb13d8d4e1068d8))
+* **deps:** update dependency uuid to v11.0.5 ([#512](https://github.com/wmfs/tymly-fastify-plugin/issues/512)) ([8e0214a](https://github.com/wmfs/tymly-fastify-plugin/commit/8e0214ad5623a3e9c0e53e6c5d60bc186e69ec55))
+
+## [1.101.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.100.0...v1.101.0) (2025-01-06)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency fastify to v5.2.1 ([#507](https://github.com/wmfs/tymly-fastify-plugin/issues/507)) ([c961a9b](https://github.com/wmfs/tymly-fastify-plugin/commit/c961a9b563ec882a08b18aa9c684c01610f24ea1))
+
+## [1.100.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.99.0...v1.100.0) (2025-01-06)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency @fastify/cors to v10.0.2 ([#505](https://github.com/wmfs/tymly-fastify-plugin/issues/505)) ([d9ab796](https://github.com/wmfs/tymly-fastify-plugin/commit/d9ab796018890051bd1f84c6fa8cb9282c353ca1))
+* **deps:** update dependency uuid to v11.0.4 ([#506](https://github.com/wmfs/tymly-fastify-plugin/issues/506)) ([09df185](https://github.com/wmfs/tymly-fastify-plugin/commit/09df18522f007c20c65cea474dc00cc4344d965a))
+
+## [1.99.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.98.0...v1.99.0) (2025-01-06)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** [sc-29160] Resolve issue with semantic-release changelog notes ([#508](https://github.com/wmfs/tymly-fastify-plugin/issues/508)) ([41642a6](https://github.com/wmfs/tymly-fastify-plugin/commit/41642a6ea577ec04da5f9bc879affdc2d6c89390))
+* **deps-dev:** update dependency @wmfs/tymly to v1.287.0 ([#503](https://github.com/wmfs/tymly-fastify-plugin/issues/503)) ([1e84a3e](https://github.com/wmfs/tymly-fastify-plugin/commit/1e84a3e98bf2a386004ca67127fc2d400759283e))
+* **deps-dev:** update dependency semantic-release to v24.2.1 ([#502](https://github.com/wmfs/tymly-fastify-plugin/issues/502)) ([61595c9](https://github.com/wmfs/tymly-fastify-plugin/commit/61595c99c2751980af41eae616986002b3f50d3c))
+* **deps:** update dependency @fastify/helmet to v13.0.1 ([#504](https://github.com/wmfs/tymly-fastify-plugin/issues/504)) ([f5a945b](https://github.com/wmfs/tymly-fastify-plugin/commit/f5a945b3aed2690563a66af5c4b5c9ea28c269cc))
+
+# [1.98.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.97.0...v1.98.0) (2024-12-18)
+
+# [1.97.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.96.0...v1.97.0) (2024-12-18)
+
+# [1.96.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.95.0...v1.96.0) (2024-12-09)
+
+# [1.95.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.94.1...v1.95.0) (2024-11-26)
+
+## [1.94.1](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.94.0...v1.94.1) (2024-11-25)
+
+
+### Bug Fixes
+
+* [sc-28801] Unable to upload due to newer version of multipart ([#486](https://github.com/wmfs/tymly-fastify-plugin/issues/486)) ([a06780a](https://github.com/wmfs/tymly-fastify-plugin/commit/a06780a3c07fae2b555887a27a6daefbd0311abf))
+
+# [1.94.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.93.0...v1.94.0) (2024-11-25)
+
+# [1.93.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.92.0...v1.93.0) (2024-11-25)
+
+# [1.92.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.91.1...v1.92.0) (2024-11-12)
+
+## [1.91.1](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.91.0...v1.91.1) (2024-11-05)
+
+
+### Bug Fixes
+
+* adjust to breaking changes from fastify jwt ([#477](https://github.com/wmfs/tymly-fastify-plugin/issues/477)) ([cf29d37](https://github.com/wmfs/tymly-fastify-plugin/commit/cf29d375bfbdc3aaa4a3cd485b367a8cef4f416c))
+
+# [1.91.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.90.0...v1.91.0) (2024-11-04)
+
+# [1.90.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.89.0...v1.90.0) (2024-11-04)
+
+# [1.89.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.88.0...v1.89.0) (2024-11-04)
+
+# [1.88.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.87.0...v1.88.0) (2024-11-04)
+
+# [1.87.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.86.0...v1.87.0) (2024-11-04)
+
+# [1.86.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.85.0...v1.86.0) (2024-11-04)
+
+# [1.85.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.84.0...v1.85.0) (2024-11-04)
+
+# [1.84.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.83.0...v1.84.0) (2024-11-04)
+
+# [1.83.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.82.0...v1.83.0) (2024-11-04)
+
+# [1.82.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.81.0...v1.82.0) (2024-11-04)
+
+# [1.81.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.80.0...v1.81.0) (2024-11-04)
+
+# [1.80.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.79.0...v1.80.0) (2024-11-04)
+
+# [1.79.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.78.0...v1.79.0) (2024-11-04)
+
+# [1.78.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.77.0...v1.78.0) (2024-11-04)
+
+# [1.77.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.76.0...v1.77.0) (2024-11-04)
+
+# [1.76.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.75.0...v1.76.0) (2024-01-15)
+
+
+### 🛠 Builds
+
+* **deps:** bump fastify from 3.27.4 to 3.29.4 ([02e49f3](https://github.com/wmfs/tymly-fastify-plugin/commit/02e49f363aa1e36a68b04aa83279a2fcad73c12c))
+* **deps:** bump jsonwebtoken from 8.5.1 to 9.0.0 ([a60cb47](https://github.com/wmfs/tymly-fastify-plugin/commit/a60cb471b77d8daa9f96a2da9cb59b2c59def775))
+* **deps:** update dependency axios to v1.6.5 ([11d68eb](https://github.com/wmfs/tymly-fastify-plugin/commit/11d68ebf0eb8d4bf69c6f71b44bd01dd216b3949))
+
+# [1.75.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.74.0...v1.75.0) (2024-01-15)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.258.0 ([973ddbe](https://github.com/wmfs/tymly-fastify-plugin/commit/973ddbea0378eb71e69d2bb5f5a5c4109d12f420))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.261.0 ([fad3cad](https://github.com/wmfs/tymly-fastify-plugin/commit/fad3cadc5a05505bedb342137b09cf7f2f48cd79))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.44.0 ([79abad7](https://github.com/wmfs/tymly-fastify-plugin/commit/79abad78afaaf1331bb4abf11e269e270cabe628))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin to v1.28.0 ([fb9790d](https://github.com/wmfs/tymly-fastify-plugin/commit/fb9790d01c69c3b6bb9748424f19b10db89b077b))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin to v1.29.0 ([5e3fcad](https://github.com/wmfs/tymly-fastify-plugin/commit/5e3fcadf0337035b08876fd0c684982c92fc290e))
+* **deps-dev:** update dependency chai to v4.3.8 ([d2a077e](https://github.com/wmfs/tymly-fastify-plugin/commit/d2a077e71c0fcb8f2f3e5ffd7d0eaf19499f6ef9))
+* **deps-dev:** update dependency semantic-release to v21.0.6 ([d79188a](https://github.com/wmfs/tymly-fastify-plugin/commit/d79188a807212ba4414a80163b29d3ebc04d3fb7))
+* **deps-dev:** update dependency semantic-release to v21.0.7 ([e08e62b](https://github.com/wmfs/tymly-fastify-plugin/commit/e08e62b872ea8e74b5fbccec86de8e3cac3508ae))
+* **deps-dev:** update dependency semantic-release to v21.0.9 ([4d0c848](https://github.com/wmfs/tymly-fastify-plugin/commit/4d0c848e9cd8c195252d655edc674d781ba2b179))
+* **deps-dev:** update dependency semantic-release to v21.1.0 ([68eabd3](https://github.com/wmfs/tymly-fastify-plugin/commit/68eabd3511496979395c8f486910bf478148179e))
+* **deps-dev:** update dependency semantic-release to v21.1.1 ([72e15f6](https://github.com/wmfs/tymly-fastify-plugin/commit/72e15f65adbaecb8cd00b21a0d4b32c217ab5625))
+* **deps:** update dependency axios to v1.6.0 [security] ([20eb9e6](https://github.com/wmfs/tymly-fastify-plugin/commit/20eb9e6b57defedc69489d9f9219049b7327f64c))
+
+# [1.74.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.73.0...v1.74.0) (2023-06-20)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency dottie to v2.0.6 ([c3a7eb0](https://github.com/wmfs/tymly-fastify-plugin/commit/c3a7eb02f1c2f5db1309540177458ad2d1f47180))
+
+# [1.73.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.72.0...v1.73.0) (2023-06-20)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin to v1.26.0 ([5fac5f0](https://github.com/wmfs/tymly-fastify-plugin/commit/5fac5f0c7a59085591e6a24da0214160b0ad1c33))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rest-client-plugin to v1.19.0 ([a747018](https://github.com/wmfs/tymly-fastify-plugin/commit/a747018ec3fff2732eb12ccf9f759387618a049f))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-solr-plugin to v2.39.0 ([225075b](https://github.com/wmfs/tymly-fastify-plugin/commit/225075b12ca13b8d4ccff85f2204fdb4c9560c42))
+* **deps-dev:** update dependency semantic-release to v21.0.5 ([4a408a7](https://github.com/wmfs/tymly-fastify-plugin/commit/4a408a72108d834077d4b9f346b9f4d1466b427c))
+* **deps:** update dependency dottie to v2.0.4 [security] ([e4f7c5c](https://github.com/wmfs/tymly-fastify-plugin/commit/e4f7c5c408b7fa41943d7bef737ccfd05a80a2ee))
+
+# [1.72.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.71.0...v1.72.0) (2023-06-07)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6.0.3 ([3c6fdde](https://github.com/wmfs/tymly-fastify-plugin/commit/3c6fddef33df174125516d0ff6741a38108427ae))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.256.0 ([22327f4](https://github.com/wmfs/tymly-fastify-plugin/commit/22327f40ddf2a4ae7185393d848aff932873e3c2))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin to v1.25.0 ([4e1edf1](https://github.com/wmfs/tymly-fastify-plugin/commit/4e1edf1012b9b6f690f3f812e7b9511ee9d4df39))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rest-client-plugin to v1.18.0 ([80af80f](https://github.com/wmfs/tymly-fastify-plugin/commit/80af80f9db9b8f0207e63ea22619bdde3ec90e96))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-solr-plugin to v2.38.0 ([03a5c8f](https://github.com/wmfs/tymly-fastify-plugin/commit/03a5c8f79fb58bc3e2c1794e06f546ef8fc6867c))
+* **deps-dev:** update dependency semantic-release to v20.1.3 ([4c42fb9](https://github.com/wmfs/tymly-fastify-plugin/commit/4c42fb9680ab0587e1f8359aa20bbd4f6f4cee0e))
+* **deps-dev:** update dependency semantic-release to v21 ([7bcac74](https://github.com/wmfs/tymly-fastify-plugin/commit/7bcac7418aade30c9305586dd32e640f4e246fbe))
+* **deps-dev:** update dependency semantic-release to v21.0.1 ([45a6d8a](https://github.com/wmfs/tymly-fastify-plugin/commit/45a6d8a3df1f99d113d8dd0621d5a8076ca5d710))
+* **deps-dev:** update dependency semantic-release to v21.0.2 ([9666d39](https://github.com/wmfs/tymly-fastify-plugin/commit/9666d397802e37a73d56f2765016caee242beb23))
+* **deps-dev:** update dependency semantic-release to v21.0.3 ([4d02d6b](https://github.com/wmfs/tymly-fastify-plugin/commit/4d02d6b733509017b73b18faf635f382934fd626))
+* **deps-dev:** update dependency standard to v17.1.0 ([dc1d5d1](https://github.com/wmfs/tymly-fastify-plugin/commit/dc1d5d1eb8be4ab522cb3f97783e6a679b35729a))
+* **deps:** update dependency axios to v1.4.0 ([f952ab5](https://github.com/wmfs/tymly-fastify-plugin/commit/f952ab5fa0d7176858e9473ba60bf31e03f8ee95))
+
+
+### 📦 Code Refactoring
+
+* standard code styling ([ba1b32e](https://github.com/wmfs/tymly-fastify-plugin/commit/ba1b32e561f7c2ec133640c3cfaf30dba0da3af6))
+
+# [1.71.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.70.0...v1.71.0) (2023-03-13)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency [@hapi](https://github.com/hapi)/boom to v10.0.1 ([05ed2b0](https://github.com/wmfs/tymly-fastify-plugin/commit/05ed2b0a9a250f62996befcfe3f603f2cd963258))
+
+# [1.70.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.69.0...v1.70.0) (2023-03-13)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency axios to v1.3.4 ([009a8b4](https://github.com/wmfs/tymly-fastify-plugin/commit/009a8b45823ece904d8efef85e50024c90cf5b31))
+
+# [1.69.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.68.0...v1.69.0) (2023-03-13)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rest-client-plugin to v1.17.0 ([04ff42c](https://github.com/wmfs/tymly-fastify-plugin/commit/04ff42ce5ecd30781e927c8cae2c4845041d90f9))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-solr-plugin to v2.37.0 ([34c5bbb](https://github.com/wmfs/tymly-fastify-plugin/commit/34c5bbbb2c975265daa177428ce5959cdf2a9787))
+* **deps-dev:** update dependency semantic-release to v20.1.1 ([61d3262](https://github.com/wmfs/tymly-fastify-plugin/commit/61d3262f8a6c3cc71d67c85eb2cd600f1c404242))
+* **deps:** update dependency dottie to v2.0.3 ([370531b](https://github.com/wmfs/tymly-fastify-plugin/commit/370531b75dde6441756211084bdff9653d05aa75))
+
+# [1.68.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.67.0...v1.68.0) (2023-02-17)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6.0.2 ([db65587](https://github.com/wmfs/tymly-fastify-plugin/commit/db65587a6f8913259b29c6eeac868af6aa8f3dcb))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.247.0 ([1b0ea3c](https://github.com/wmfs/tymly-fastify-plugin/commit/1b0ea3c200fbfd2c01bedc65c0e0add3c9697eb3))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.247.1 ([4d68abd](https://github.com/wmfs/tymly-fastify-plugin/commit/4d68abdb4d7d5e81c766328e77217cfb35bcd0f8))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.248.0 ([7628528](https://github.com/wmfs/tymly-fastify-plugin/commit/7628528d9d357b811c747122c9ddbe504128c623))
+* **deps-dev:** update dependency chai to v4.3.7 ([4819412](https://github.com/wmfs/tymly-fastify-plugin/commit/4819412bad0d38487e18b1f1c79e5820e045e5f9))
+* **deps-dev:** update dependency mocha to v10.2.0 ([923ceaa](https://github.com/wmfs/tymly-fastify-plugin/commit/923ceaaa90473b3785d3b0f619a37765211195ba))
+* **deps-dev:** update dependency semantic-release to v20 ([15117d2](https://github.com/wmfs/tymly-fastify-plugin/commit/15117d2e03338d47d0cfc17a91ea6eb52bde7a41))
+* **deps-dev:** update dependency semantic-release to v20.0.1 ([0cf9213](https://github.com/wmfs/tymly-fastify-plugin/commit/0cf9213644f6be8ec9d38e9abd1e3d74262d9df8))
+* **deps-dev:** update dependency semantic-release to v20.0.2 ([a1d207a](https://github.com/wmfs/tymly-fastify-plugin/commit/a1d207a912a00edc25bc318e63afebf81c3d7116))
+* **deps-dev:** update dependency semantic-release to v20.0.3 ([f4a400b](https://github.com/wmfs/tymly-fastify-plugin/commit/f4a400be8ff1a610f807f6dbd080b2cbe5a72502))
+* **deps-dev:** update dependency semantic-release to v20.0.4 ([81d00a6](https://github.com/wmfs/tymly-fastify-plugin/commit/81d00a6307277e6df2c9ab034f484e81132631c3))
+* **deps-dev:** update dependency semantic-release to v20.1.0 ([c645aea](https://github.com/wmfs/tymly-fastify-plugin/commit/c645aeaf39ee32f3397ef720abf47cd36cf1d937))
+* **deps:** update dependency axios to v1.3.3 ([1109890](https://github.com/wmfs/tymly-fastify-plugin/commit/110989084d82d6e84429bef5c2b5e228f1711d34))
+
+# [1.67.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.66.0...v1.67.0) (2022-11-03)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.246.0 ([54390c2](https://github.com/wmfs/tymly-fastify-plugin/commit/54390c2468ec50bd52421f66dc30c5e931725339))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.43.2 ([9af713f](https://github.com/wmfs/tymly-fastify-plugin/commit/9af713fad15157486301102e3406715968345f72))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin to v1.23.0 ([17fc8e6](https://github.com/wmfs/tymly-fastify-plugin/commit/17fc8e6bbdb87ac3bae869f0315b541c4bcc1e57))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rest-client-plugin to v1.16.0 ([fc66d9b](https://github.com/wmfs/tymly-fastify-plugin/commit/fc66d9b84e01e9e75b3131e73c21dc63e9eb87e3))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-solr-plugin to v2.35.0 ([dcc7459](https://github.com/wmfs/tymly-fastify-plugin/commit/dcc74596f1b801a6a56fce6e8b493502a6b8985a))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-solr-plugin to v2.36.0 ([1918c4a](https://github.com/wmfs/tymly-fastify-plugin/commit/1918c4ac5787a011862e073b12b1b4dee2242980))
+* **deps-dev:** update dependency mocha to v10.1.0 ([836191b](https://github.com/wmfs/tymly-fastify-plugin/commit/836191bc43a8553a0156f25d7e7291afd1ba1b49))
+* **deps:** update dependency axios to v1 ([0740814](https://github.com/wmfs/tymly-fastify-plugin/commit/07408147cbd9bdfb698c570bfc4f744d1a11e835))
+
+# [1.66.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.65.0...v1.66.0) (2022-11-02)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency fastify-helmet to v7.1.0 ([2268d0f](https://github.com/wmfs/tymly-fastify-plugin/commit/2268d0f799288489334c4e9e5c3eadf8f1b205e1))
+* **deps:** update dependency fastify-static to v4.7.0 ([e4f332d](https://github.com/wmfs/tymly-fastify-plugin/commit/e4f332d6a69fb2c38168a2f3020c9992b30b2a37))
+
+# [1.65.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.64.0...v1.65.0) (2022-11-02)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency axios to v0.27.2 ([a13011b](https://github.com/wmfs/tymly-fastify-plugin/commit/a13011bb120f1292ac2b7248d4c622cce91b8d28))
+* **deps:** update dependency fastify-cors to v6.1.0 ([d8e23bd](https://github.com/wmfs/tymly-fastify-plugin/commit/d8e23bd7f8d18f418c813e12273fbf835178103f))
+* **deps:** update dependency fastify-multipart to v5.4.0 ([6519fc4](https://github.com/wmfs/tymly-fastify-plugin/commit/6519fc4ac4d33caaeebedbb802eaf6e71bfa0e68))
+
+# [1.64.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.63.0...v1.64.0) (2022-11-02)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.43.0 ([a7a76f8](https://github.com/wmfs/tymly-fastify-plugin/commit/a7a76f87a63c02eb4cd85d532c8f973eeecddf0f))
+* **deps:** update dependency [@hapi](https://github.com/hapi)/boom to v10 ([3e87819](https://github.com/wmfs/tymly-fastify-plugin/commit/3e8781929e0453849ba490e0e05b7d0402b2ebdd))
+
+# [1.63.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.62.3...v1.63.0) (2022-11-01)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.242.0 ([39184f2](https://github.com/wmfs/tymly-fastify-plugin/commit/39184f2d144d0249bb184af7d96fb69714624e11))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.42.0 ([b99bba5](https://github.com/wmfs/tymly-fastify-plugin/commit/b99bba50dc716e5f7e31769caadb4ce8a488f60e))
+* **deps-dev:** update dependency semantic-release to v19.0.4 ([6d0ee81](https://github.com/wmfs/tymly-fastify-plugin/commit/6d0ee811ebd24d37046c06a345683510dfdd00e2))
+* **deps-dev:** update dependency semantic-release to v19.0.5 ([4d67334](https://github.com/wmfs/tymly-fastify-plugin/commit/4d67334e14b9548ef461782ceb429bd819f98aac))
+* **deps:** update dependency uuid to v9 ([cfdc2f4](https://github.com/wmfs/tymly-fastify-plugin/commit/cfdc2f4a3d5eab14591765c51753202dd454c2aa))
+
+## [1.62.3](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.62.2...v1.62.3) (2022-07-28)
+
+
+### 🐛 Bug Fixes
+
+* allow for cross origin resources sc-15881[] ([3bc51c0](https://github.com/wmfs/tymly-fastify-plugin/commit/3bc51c0feb191c3eeae390a283599fb0e61d25bf))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.239.0 ([e86d8c3](https://github.com/wmfs/tymly-fastify-plugin/commit/e86d8c372c8aab4ecd61c827a9467149963e4c12))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.239.1 ([eb4a36a](https://github.com/wmfs/tymly-fastify-plugin/commit/eb4a36af4755f9483e5f4bd3f3eb0363f56d5d76))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.240.0 ([8a5fb1c](https://github.com/wmfs/tymly-fastify-plugin/commit/8a5fb1c5c039f7cbd893c6ddc2579f7ad59b5186))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.41.0 ([dfb7166](https://github.com/wmfs/tymly-fastify-plugin/commit/dfb71669186999ca52cbe9b9a204d9a4ad232ae7))
+* **deps-dev:** update dependency semantic-release to v19.0.3 ([e257beb](https://github.com/wmfs/tymly-fastify-plugin/commit/e257bebd829922766f58ec52367c83893a473645))
+
+
+### ♻️ Chores
+
+* remove comment ([06cdbb8](https://github.com/wmfs/tymly-fastify-plugin/commit/06cdbb8796b8b6e4b596888a5f173a7d3eff2480))
+
+## [1.62.2](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.62.1...v1.62.2) (2022-05-10)
+
+
+### 🐛 Bug Fixes
+
+* pass update last described as execution options ([6e0bf48](https://github.com/wmfs/tymly-fastify-plugin/commit/6e0bf481314854dc266899bd3d7aeb7ccfb6f1a0))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/tymly to 1.238.0 ([fbc2db1](https://github.com/wmfs/tymly-fastify-plugin/commit/fbc2db19264df1265e52fe6a686312131b7d1dbd))
+
+## [1.62.1](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.62.0...v1.62.1) (2022-05-09)
+
+
+### 🐛 Bug Fixes
+
+* describe execution has a new parameter to updating timestamp ([2a1ea65](https://github.com/wmfs/tymly-fastify-plugin/commit/2a1ea65eed65f211f450fc01eeb5757319d16ac0))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/tymly to 1.237.0 ([9dafd10](https://github.com/wmfs/tymly-fastify-plugin/commit/9dafd10d76c2b21bcd797274225790a8e0ec8b20))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.235.2 ([d72d984](https://github.com/wmfs/tymly-fastify-plugin/commit/d72d984898f2d3a7c5452513a88d1375230dbed0))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.235.3 ([15463e3](https://github.com/wmfs/tymly-fastify-plugin/commit/15463e373e97e4a4c16d05f986d8f1551d18ae61))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin to v1.22.0 ([d03b532](https://github.com/wmfs/tymly-fastify-plugin/commit/d03b532a2a1bf0b45a771071349182c1f9b88fe0))
+* **deps-dev:** update dependency mocha to v10 ([92ba396](https://github.com/wmfs/tymly-fastify-plugin/commit/92ba39648d5aab2c5503e7cb8a872bf9a32e1014))
+* **deps-dev:** update dependency standard to v17 ([3bf9396](https://github.com/wmfs/tymly-fastify-plugin/commit/3bf9396e9efc40cf6605e9c2fc637f6d43fddabe))
+
+# [1.62.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.61.0...v1.62.0) (2022-04-05)
+
+
+### 🛠 Builds
+
+* **deps:** revert dependency fastify-jwt to v3.0.1 ([331a377](https://github.com/wmfs/tymly-fastify-plugin/commit/331a377da7996017c7f12dd37f3be9d95fffc14a))
+
+# [1.61.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.60.0...v1.61.0) (2022-04-05)
+
+
+### ✨ Features
+
+* more use of logger to replace console logs ([976bc36](https://github.com/wmfs/tymly-fastify-plugin/commit/976bc3678d64110aafafb418cdccd40e788252ac))
+
+# [1.60.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.59.0...v1.60.0) (2022-04-04)
+
+
+### ✨ Features
+
+* switch debug to using tymly logger service ([0c1ec68](https://github.com/wmfs/tymly-fastify-plugin/commit/0c1ec683ba3d3d54f9abbd976a22cc2e7de61c4d))
+
+
+### 🛠 Builds
+
+* **deps:** update all deps ([1486628](https://github.com/wmfs/tymly-fastify-plugin/commit/14866282b6a7149d3c63763637733f9f8a44688e))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/exec to v6.0.3 ([558619a](https://github.com/wmfs/tymly-fastify-plugin/commit/558619ae4d30f7a5be11b85556b8deeeee69e1d7))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rest-client-plugin to v1.15.0 ([3db95fc](https://github.com/wmfs/tymly-fastify-plugin/commit/3db95fc771388ff913befe84485695e267d1ed6f))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-solr-plugin to v2.32.0 ([0b38383](https://github.com/wmfs/tymly-fastify-plugin/commit/0b3838326dfc08fd7205308b4abf4340967907c1))
+* **deps-dev:** update dependency chai to v4.3.5 ([dd16a2a](https://github.com/wmfs/tymly-fastify-plugin/commit/dd16a2adec511d3e27869044041be41e4b03832b))
+* **deps-dev:** update dependency chai to v4.3.6 ([dec5030](https://github.com/wmfs/tymly-fastify-plugin/commit/dec5030fa7852f2f21759984ffe8a3fa937a03ad))
+* **deps-dev:** update dependency mocha to v9.2.0 ([1e283f8](https://github.com/wmfs/tymly-fastify-plugin/commit/1e283f8c85c69a6f8eb7c7052d00452a3c345d88))
+* **deps-dev:** update dependency mocha to v9.2.1 ([24aba1b](https://github.com/wmfs/tymly-fastify-plugin/commit/24aba1b953d9c87630ba4b15bb1f7d1d30510885))
+* **deps-dev:** update dependency mocha to v9.2.2 ([1cdf478](https://github.com/wmfs/tymly-fastify-plugin/commit/1cdf47862beb7b3b57a59c05d6edb0004c150f4e))
+* **deps-dev:** update dependency semantic-release to v19 ([19ace7d](https://github.com/wmfs/tymly-fastify-plugin/commit/19ace7df61690060418c324c4f87c37c42f3059b))
+* **deps-dev:** update tymly core ([3d695e2](https://github.com/wmfs/tymly-fastify-plugin/commit/3d695e29e786de8a3fd8d45d057ec2dd22bc43a0))
+
+# [1.59.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.58.0...v1.59.0) (2022-01-25)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency fastify-jwt to v3.0.1 ([9642960](https://github.com/wmfs/tymly-fastify-plugin/commit/964296079672091942f1977f0573efe70868e5e8))
+
+# [1.58.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.57.0...v1.58.0) (2022-01-25)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency fastify-helmet to v7 ([6407395](https://github.com/wmfs/tymly-fastify-plugin/commit/6407395256f2c451685ac31ecb2c5c42569bfb0d))
+
+# [1.57.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.56.0...v1.57.0) (2022-01-25)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency axios to v0.25.0 ([32470fb](https://github.com/wmfs/tymly-fastify-plugin/commit/32470fb367fdb188c19c934c0016ed8d39babb54))
+* **deps:** update dependency fastify-multipart to v5 ([a70dd90](https://github.com/wmfs/tymly-fastify-plugin/commit/a70dd90eca686f6d7123cd02b3095452d41feaf7))
+
+# [1.56.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.55.0...v1.56.0) (2022-01-25)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency fastify to v3.27.0 ([2e869f0](https://github.com/wmfs/tymly-fastify-plugin/commit/2e869f0059a3e38105cb444c1454767db234a735))
+
+# [1.55.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.54.0...v1.55.0) (2022-01-25)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency fastify-jwt to v4 ([dd8bde9](https://github.com/wmfs/tymly-fastify-plugin/commit/dd8bde9277bff2ca47411a2da1b8b3b62527e848))
+
+# [1.54.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.53.0...v1.54.0) (2022-01-25)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency debug to v4.3.3 ([890ddb5](https://github.com/wmfs/tymly-fastify-plugin/commit/890ddb5a79f1e92b13a5ec9a0441119b10582628))
+* **deps:** update dependency fastify-static to v4.5.0 ([02d0802](https://github.com/wmfs/tymly-fastify-plugin/commit/02d08021a37fba62c45a9f0649710b179adc8565))
+
+# [1.53.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.52.0...v1.53.0) (2022-01-25)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency [@hapi](https://github.com/hapi)/boom to v9.1.4 ([5149888](https://github.com/wmfs/tymly-fastify-plugin/commit/5149888dec7e487320286f7638858ac6b56729e7))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.218.0 ([9c4fcbd](https://github.com/wmfs/tymly-fastify-plugin/commit/9c4fcbd79e8a3d7da00c7b47af5c96b0669f359f))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.218.1 ([c1b0c8c](https://github.com/wmfs/tymly-fastify-plugin/commit/c1b0c8c35573a29894857b9b60bc77ecde00ea6e))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.220.0 ([fa020fd](https://github.com/wmfs/tymly-fastify-plugin/commit/fa020fdee6c0194f8a8770e05cd2646ceb28697f))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.221.0 ([4ef3048](https://github.com/wmfs/tymly-fastify-plugin/commit/4ef3048645cf3edfca7b0e11f26d277ec94de960))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.222.0 ([5e6c606](https://github.com/wmfs/tymly-fastify-plugin/commit/5e6c60608b44e4abdf2096419577761d9f27377b))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.224.2 ([60cca96](https://github.com/wmfs/tymly-fastify-plugin/commit/60cca96cf2f0935c67ce543577fe7b59b6e6803d))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.36.1 ([fb815f1](https://github.com/wmfs/tymly-fastify-plugin/commit/fb815f1ac147d44540be558c10ecba894a01e305))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.36.2 ([ae234d7](https://github.com/wmfs/tymly-fastify-plugin/commit/ae234d711526172c899d0dc61062647da67da936))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.37.0 ([044a66b](https://github.com/wmfs/tymly-fastify-plugin/commit/044a66bb43090546c6be6c294be1354793b94208))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin to v1.19.0 ([ee4feae](https://github.com/wmfs/tymly-fastify-plugin/commit/ee4feae51575959e523bd64800a784a2ea1cb4e9))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin to v1.20.0 ([fca984d](https://github.com/wmfs/tymly-fastify-plugin/commit/fca984d6ee33061492e62fb801ecbc01d980fbe9))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin to v1.20.1 ([ab1e515](https://github.com/wmfs/tymly-fastify-plugin/commit/ab1e515a237091131a903fd35fa476654fb570bf))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin to v1.21.0 ([6a50f08](https://github.com/wmfs/tymly-fastify-plugin/commit/6a50f08cecb392ccd506f5715a1907b11bc5de39))
+* **deps-dev:** update dependency semantic-release to v18.0.1 ([7bcc451](https://github.com/wmfs/tymly-fastify-plugin/commit/7bcc45108f92956f67c4a1a40c6d0063d3e77fdb))
+* **deps-dev:** update semantic-release monorepo ([6539b6d](https://github.com/wmfs/tymly-fastify-plugin/commit/6539b6d2e312df4457be9c364cce6031fe5108a0))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** add build-env-vars context [sc-11392] ([0f3c0d5](https://github.com/wmfs/tymly-fastify-plugin/commit/0f3c0d5ef488702e913b6491d4e9139d75b560b6))
+* **circle:** update npm install command [sc-11392] ([053b3c6](https://github.com/wmfs/tymly-fastify-plugin/commit/053b3c6edd99a2e8f13eaa301025e7261f3e9366))
+
 # [1.52.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.51.0...v1.52.0) (2021-10-20)
 
 

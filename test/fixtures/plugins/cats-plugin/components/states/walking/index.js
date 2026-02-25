@@ -1,4 +1,3 @@
-
 class Walking {
   init (stateConfig, options, callback) {
     callback(null)

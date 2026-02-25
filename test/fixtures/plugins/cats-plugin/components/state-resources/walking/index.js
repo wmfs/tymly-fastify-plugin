@@ -1,4 +1,3 @@
-
 module.exports = class Walking {
   boot (config, options, callback) {
     callback(null)

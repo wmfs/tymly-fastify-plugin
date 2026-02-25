@@ -1,4 +1,3 @@
-
 class Sleeping {
   init (stateConfig, options, callback) {
     callback(null)

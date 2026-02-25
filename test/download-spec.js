@@ -44,7 +44,8 @@ describe('Download tests', function () {
     downloadService = tymlyServices.fileDownloading
     statebox = tymlyServices.statebox
     const server = tymlyServices.server
-    server.listen(PORT, HOST, () => {
+    server.listen(PORT, HOST, (err) => {
+      expect(err).to.eql(null)
       console.log(`Listening on ${PORT}`)
     })
   })

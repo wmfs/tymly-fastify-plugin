@@ -1,4 +1,3 @@
-
 class Moaning {
   init (stateConfig, options, callback) {
     callback(null)

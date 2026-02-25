@@ -1,4 +1,3 @@
-
 class Retiring {
   init (stateConfig, options, callback) {
     callback(null)

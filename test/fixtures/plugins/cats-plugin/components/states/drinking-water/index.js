@@ -1,4 +1,3 @@
-
 class DrinkingWater {
   init (stateConfig, options, callback) {
     callback(null)

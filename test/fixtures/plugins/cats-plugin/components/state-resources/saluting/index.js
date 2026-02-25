@@ -1,4 +1,3 @@
-
 module.exports = class Saluting {
   boot (config, options, callback) {
     callback(null)

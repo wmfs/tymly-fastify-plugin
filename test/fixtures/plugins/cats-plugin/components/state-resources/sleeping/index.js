@@ -1,4 +1,3 @@
-
 module.exports = class Sleeping {
   boot (config, options, callback) {
     callback(null)

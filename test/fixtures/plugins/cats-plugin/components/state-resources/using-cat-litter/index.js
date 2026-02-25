@@ -1,4 +1,3 @@
-
 module.exports = class Sitting {
   boot (config, options, callback) {
     callback(null)
