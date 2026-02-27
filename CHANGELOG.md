@@ -1,3 +1,20 @@
+## [1.129.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.128.0...v1.129.0) (2026-02-27)
+
+### New Feature(s) :rocket:
+
+* [sc-32682] Add JWT Authentication to /download endpoint in fastify plugin ([#621](https://github.com/wmfs/tymly-fastify-plugin/issues/621)) ([f6284bf](https://github.com/wmfs/tymly-fastify-plugin/commit/f6284bf260f71605cf23ccbaba40d284d0d53432))
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @semantic-release/release-notes-generator to v14.1.0 ([#606](https://github.com/wmfs/tymly-fastify-plugin/issues/606)) ([f2331c1](https://github.com/wmfs/tymly-fastify-plugin/commit/f2331c174a6306f8f1ed66284acd154ac977e7b4))
+* **deps-dev:** update dependency @wmfs/tymly-rest-client-plugin to v1.34.0 ([#598](https://github.com/wmfs/tymly-fastify-plugin/issues/598)) ([a800359](https://github.com/wmfs/tymly-fastify-plugin/commit/a80035980a955a723a2f49825f070805464c4b85))
+* **deps-dev:** update dependency mocha to v11.7.2 ([#603](https://github.com/wmfs/tymly-fastify-plugin/issues/603)) ([61fb742](https://github.com/wmfs/tymly-fastify-plugin/commit/61fb7429af175529682c9f4def934fdab794dc0d))
+* **deps-dev:** update dependency mocha to v11.7.3 ([#615](https://github.com/wmfs/tymly-fastify-plugin/issues/615)) ([a957948](https://github.com/wmfs/tymly-fastify-plugin/commit/a9579482cbd140d1401b86074745c1110c1fc693))
+* **deps-dev:** update dependency mocha to v11.7.4 ([#616](https://github.com/wmfs/tymly-fastify-plugin/issues/616)) ([7cc79fe](https://github.com/wmfs/tymly-fastify-plugin/commit/7cc79fe328a228979de9918e5f0a739f9e4fc664))
+* **deps-dev:** update dependency semantic-release to v24.2.8 ([#608](https://github.com/wmfs/tymly-fastify-plugin/issues/608)) ([aeebafb](https://github.com/wmfs/tymly-fastify-plugin/commit/aeebafbb2e534a6fb867aecb9c1d1737c8d46ccf))
+* **deps-dev:** update dependency semantic-release to v24.2.9 ([#612](https://github.com/wmfs/tymly-fastify-plugin/issues/612)) ([7a3a52b](https://github.com/wmfs/tymly-fastify-plugin/commit/7a3a52bf524772cc547203ab8226a9dadc4ea561))
+* **deps-dev:** update dependency semantic-release to v25 ([#617](https://github.com/wmfs/tymly-fastify-plugin/issues/617)) ([617404a](https://github.com/wmfs/tymly-fastify-plugin/commit/617404a124810f8b6c9ad181a2ce399dbff72e3f))
+
 ## [1.128.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.127.0...v1.128.0) (2025-07-23)
 
 ### Build system dependencies :hammer:
