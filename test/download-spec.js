@@ -10,6 +10,7 @@ const path = require('path')
 const fs = require('fs')
 const fsp = fs.promises
 const axios = require('axios')
+const jwt = require('jsonwebtoken')
 
 describe('Download tests', function () {
   this.timeout(process.env.TIMEOUT || 5000)
@@ -23,6 +24,7 @@ describe('Download tests', function () {
 
   let tymlyService, downloadService, statebox
   let downloadPath
+  let token
 
   before('start tymly', async () => {
     const tymlyServices = await tymly.boot(
@@ -43,6 +45,7 @@ describe('Download tests', function () {
     tymlyService = tymlyServices.tymly
     downloadService = tymlyServices.fileDownloading
     statebox = tymlyServices.statebox
+    token = jwt.sign({}, Buffer.from(secret, 'base64'), { subject: 'test', audience })
     const server = tymlyServices.server
     server.listen(PORT, HOST, (err) => {
       expect(err).to.eql(null)
@@ -181,7 +184,8 @@ describe('Download tests', function () {
 
     const download = await axios({
       url: baseUrl + downloadPath,
-      method: 'GET'
+      method: 'GET',
+      headers: { Authorization: 'Bearer ' + token }
     })
 
     expect(download.status).to.eql(200)
@@ -193,7 +197,8 @@ describe('Download tests', function () {
     try {
       await axios({
         url: baseUrl + downloadPath,
-        method: 'GET'
+        method: 'GET',
+        headers: { Authorization: 'Bearer ' + token }
       })
     } catch (err) {
       download = err
