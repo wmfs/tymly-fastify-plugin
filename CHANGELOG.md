@@ -1,3 +1,11 @@
+## [1.130.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.129.0...v1.130.0) (2026-04-09)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency mocha to v11.7.5 ([#623](https://github.com/wmfs/tymly-fastify-plugin/issues/623)) ([9cd6760](https://github.com/wmfs/tymly-fastify-plugin/commit/9cd676083834f5c7296c332969100c96d172ce19))
+* **deps-dev:** update dependency semantic-release to v25.0.3 ([#624](https://github.com/wmfs/tymly-fastify-plugin/issues/624)) ([309dd36](https://github.com/wmfs/tymly-fastify-plugin/commit/309dd36f7f235ff09939fe1d45fba748e4b29b1a))
+* **deps:** bump fastify-jwt for fast-jwt vuln ([#627](https://github.com/wmfs/tymly-fastify-plugin/issues/627)) ([cbecf4f](https://github.com/wmfs/tymly-fastify-plugin/commit/cbecf4f2c40a11d659dfc0c54454980078c75865))
+
 ## [1.129.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.128.0...v1.129.0) (2026-02-27)
 
 ### New Feature(s) :rocket:
