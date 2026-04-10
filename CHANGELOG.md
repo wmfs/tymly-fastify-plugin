@@ -1,3 +1,9 @@
+## [1.131.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.130.0...v1.131.0) (2026-04-10)
+
+### Build system dependencies :hammer:
+
+* **deps:** bump axios ([1351342](https://github.com/wmfs/tymly-fastify-plugin/commit/13513425ddc37b5dbd710e3812a4ff18c66ce488))
+
 ## [1.130.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.129.0...v1.130.0) (2026-04-09)
 
 ### Build system dependencies :hammer:
