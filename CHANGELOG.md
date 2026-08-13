@@ -1,3 +1,9 @@
+## [1.131.1](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.131.0...v1.131.1) (2026-08-13)
+
+### Bug Fix(es) :bug:
+
+* update .circleci/config.yml to 2.1 ([ae61c4f](https://github.com/wmfs/tymly-fastify-plugin/commit/ae61c4fb6b43e9eecd2c63b307df968c51d142b6))
+
 ## [1.131.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.130.0...v1.131.0) (2026-04-10)
 
 ### Build system dependencies :hammer:
