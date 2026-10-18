@@ -49,6 +49,7 @@ describe('Fastify tests', function () {
     it('create some basic tymly services to run a simple cat blueprint', async () => {
       process.env.TEST_API_URL = testEndpointUrl
       process.env.TEST_TOKEN = 'Bearer ' + adminToken
+      process.env.TYMLY_REQUEST_SIZE_LIMIT = '1mb'
 
       const tymlyServices = await tymly.boot(
         {
@@ -77,6 +78,7 @@ describe('Fastify tests', function () {
         }
       )
 
+      delete process.env.TYMLY_REQUEST_SIZE_LIMIT
       tymlyService = tymlyServices.tymly
       authService = tymlyServices.jwtAuth
       server = tymlyServices.server
@@ -452,6 +454,73 @@ describe('Fastify tests', function () {
       expect(res.data.status).to.eql('SUCCEEDED')
       expect(res.data.stateMachineName).to.eql('tymlyTest_helloFailButLiveAgain')
       expect(res.data.currentStateName).to.eql('IT-LIVES')
+    })
+  })
+
+  describe('request hardening', () => {
+    async function post (data, headers = {}) {
+      try {
+        return await axios({
+          url: executionsUrl,
+          method: 'post',
+          data,
+          headers: { ...sendToken(adminToken), ...headers },
+          maxBodyLength: Infinity
+        })
+      } catch (err) {
+        return err.response
+      }
+    }
+
+    it('rejects a body over TYMLY_REQUEST_SIZE_LIMIT', async () => {
+      const res = await post({
+        stateMachineName: 'tymlyTest_cat_1_0',
+        input: { padding: 'x'.repeat(2 * 1024 * 1024) }
+      })
+      expect(res.status).to.eql(413)
+    })
+
+    it('rejects a body containing __proto__', async () => {
+      const res = await post(
+        '{"stateMachineName":"tymlyTest_cat_1_0","input":{"__proto__":{"polluted":true}}}',
+        { 'content-type': 'application/json' }
+      )
+      expect(res.status).to.eql(400)
+    })
+
+    it('refuses to start tymly_downloadFile_1_0 directly', async () => {
+      const res = await post({
+        stateMachineName: 'tymly_downloadFile_1_0',
+        input: { localFilePath: path.resolve(__dirname, '..', 'package.json') }
+      })
+      expect(res.status).to.eql(403)
+    })
+
+    it('ignores execution options the client should not control', async () => {
+      const res = await post({
+        stateMachineName: 'tymlyTest_cat_1_0',
+        input: {
+          petName: 'Mallory',
+          gender: 'female',
+          hoursSinceLastMotion: 1,
+          hoursSinceLastMeal: 1,
+          petDiary: []
+        },
+        options: {
+          userId: 'SomeoneElse',
+          parentExecutionName: 'not-mine',
+          branchIndex: 0,
+          instigatingClient: { appName: 'tymly-fastify-plugin', domain: 'fastify' }
+        }
+      })
+
+      expect(res.status).to.eql(201)
+      expect(res.data.executionOptions).to.eql({
+        action: 'startExecution',
+        instigatingClient: { appName: 'tymly-fastify-plugin', domain: 'fastify' },
+        stateMachineName: 'tymlyTest_cat_1_0',
+        userId: 'Dave'
+      })
     })
   })
 
