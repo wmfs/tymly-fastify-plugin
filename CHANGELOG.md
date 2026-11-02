@@ -1,3 +1,9 @@
+## [1.134.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.133.0...v1.134.0) (2026-11-02)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency @fastify/static to v10.1.8 ([#662](https://github.com/wmfs/tymly-fastify-plugin/issues/662)) ([a575825](https://github.com/wmfs/tymly-fastify-plugin/commit/a575825596497138127b4327e673e6b678e067ef))
+
 ## [1.133.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.132.0...v1.133.0) (2026-11-02)
 
 ### Build system dependencies :hammer:
