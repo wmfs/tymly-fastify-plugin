@@ -1,3 +1,9 @@
+## [1.133.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.132.0...v1.133.0) (2026-11-02)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency axios to v1.21.0 ([#663](https://github.com/wmfs/tymly-fastify-plugin/issues/663)) ([b744434](https://github.com/wmfs/tymly-fastify-plugin/commit/b744434cb14c5075bf9bb9afb27ee03d05ea785c))
+
 ## [1.132.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.131.1...v1.132.0) (2026-10-30)
 
 ### Build system dependencies :hammer:
