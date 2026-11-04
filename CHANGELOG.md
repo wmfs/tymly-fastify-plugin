@@ -1,3 +1,10 @@
+## [1.136.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.135.0...v1.136.0) (2026-11-04)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update [@wmfs](https://github.com/wmfs) packages ([#665](https://github.com/wmfs/tymly-fastify-plugin/issues/665)) ([4e3753a](https://github.com/wmfs/tymly-fastify-plugin/commit/4e3753aadc99242c6cbef105f65b5ae3b5aa6844))
+* **deps:** update dependency uuid to v14 ([#659](https://github.com/wmfs/tymly-fastify-plugin/issues/659)) ([20d9621](https://github.com/wmfs/tymly-fastify-plugin/commit/20d9621f239d60b7e29efd84f266b4cb75151a5e))
+
 ## [1.135.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.134.0...v1.135.0) (2026-11-03)
 
 ### Build system dependencies :hammer:
