@@ -1,3 +1,9 @@
+## [1.137.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.136.0...v1.137.0) (2026-11-04)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency debug to v4.4.3 ([#611](https://github.com/wmfs/tymly-fastify-plugin/issues/611)) ([a81d407](https://github.com/wmfs/tymly-fastify-plugin/commit/a81d4077664a94dff5b2bd3d4a5129c10bc0040f))
+
 ## [1.136.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.135.0...v1.136.0) (2026-11-04)
 
 ### Build system dependencies :hammer:
