@@ -1,3 +1,13 @@
+## [1.137.1](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.137.0...v1.137.1) (2026-11-05)
+
+### Bug Fix(es) :bug:
+
+* declare missing dependency ([6636f7e](https://github.com/wmfs/tymly-fastify-plugin/commit/6636f7ec7e43a9e610365c3a90ef8f81e8b3c59a))
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly to v1.327.0 ([#666](https://github.com/wmfs/tymly-fastify-plugin/issues/666)) ([656c85e](https://github.com/wmfs/tymly-fastify-plugin/commit/656c85e8b05af97d38a420b3a3ba9d0e9356c483))
+
 ## [1.137.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.136.0...v1.137.0) (2026-11-04)
 
 ### Build system dependencies :hammer:
