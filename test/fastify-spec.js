@@ -4,6 +4,7 @@ const PORT = 3003
 const HOST = '0.0.0.0'
 const jwt = require('jsonwebtoken')
 const axios = require('axios')
+const nock = require('nock').default
 const expect = require('chai').expect
 const tymly = require('@wmfs/tymly')
 const path = require('path')
@@ -99,11 +100,26 @@ describe('Fastify tests', function () {
     })
 
     it('should get cert from auth0 domain', async () => {
+      // Fake Auth0's response, so the test doesn't depend on the network or our real tenant
+      const auth0 = nock('https://wmfs.eu.auth0.com')
+        .get('/pem')
+        .reply(200, '-----BEGIN CERTIFICATE-----\nTEST\n-----END CERTIFICATE-----\n')
+      const originalDomain = process.env.AUTH0_DOMAIN
       process.env.AUTH0_DOMAIN = 'wmfs'
-      const cert = await authService.findCertificate()
-      expect(cert)
-      expect(cert.includes('BEGIN CERTIFICATE'))
-      expect(cert.includes('END CERTIFICATE'))
+
+      try {
+        const cert = await authService.findCertificate()
+        expect(auth0.isDone()).to.equal(true)
+        expect(cert).to.include('BEGIN CERTIFICATE')
+        expect(cert).to.include('END CERTIFICATE')
+      } finally {
+        nock.cleanAll()
+        if (originalDomain === undefined) {
+          delete process.env.AUTH0_DOMAIN
+        } else {
+          process.env.AUTH0_DOMAIN = originalDomain
+        }
+      }
     })
   })
 
