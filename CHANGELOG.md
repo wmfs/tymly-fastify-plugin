@@ -1,3 +1,12 @@
+## [1.138.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.137.1...v1.138.0) (2026-11-17)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update [@wmfs](https://github.com/wmfs) packages ([#667](https://github.com/wmfs/tymly-fastify-plugin/issues/667)) ([78437b1](https://github.com/wmfs/tymly-fastify-plugin/commit/78437b182495022942104f19af9ca51254c83291))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs) packages ([#672](https://github.com/wmfs/tymly-fastify-plugin/issues/672)) ([fdaec43](https://github.com/wmfs/tymly-fastify-plugin/commit/fdaec43af35a7cf5024c895be95ce41b59e3be27))
+* **deps:** update dependency @fastify/jwt to v10.2.7 ([#668](https://github.com/wmfs/tymly-fastify-plugin/issues/668)) ([5006e3b](https://github.com/wmfs/tymly-fastify-plugin/commit/5006e3b88c95e822a20f42b94080bd6fe85dc39a))
+* **deps:** update dependency @fastify/multipart to v10.1.7 ([#669](https://github.com/wmfs/tymly-fastify-plugin/issues/669)) ([1b99567](https://github.com/wmfs/tymly-fastify-plugin/commit/1b99567bfd7a944b46f79996b6e2f1ae2d3b0668))
+
 ## [1.137.1](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.137.0...v1.137.1) (2026-11-05)
 
 ### Bug Fix(es) :bug:
