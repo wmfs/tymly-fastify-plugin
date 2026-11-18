@@ -1,3 +1,16 @@
+## [1.139.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.138.0...v1.139.0) (2026-11-18)
+
+### Tests :alembic:
+
+* [sc-34554] tymly-fastify-plugin: cats-blueprint test fixture uses quoted numbers in NumericGreaterThan ([a38fc5a](https://github.com/wmfs/tymly-fastify-plugin/commit/a38fc5a28874f904b7f725fdf9e09dacd78fb359))
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly to v1.329.0 ([#674](https://github.com/wmfs/tymly-fastify-plugin/issues/674)) ([05d4799](https://github.com/wmfs/tymly-fastify-plugin/commit/05d4799fe339c31895ac4837e0581397814a4a39))
+* **deps-dev:** update dependency @wmfs/tymly to v1.333.0 ([#675](https://github.com/wmfs/tymly-fastify-plugin/issues/675)) ([60c0479](https://github.com/wmfs/tymly-fastify-plugin/commit/60c04791d5beb865a215584547e742cdcd97749c))
+* **deps:** update dependency @fastify/multipart to v10.1.8 ([#670](https://github.com/wmfs/tymly-fastify-plugin/issues/670)) ([9c7fb2f](https://github.com/wmfs/tymly-fastify-plugin/commit/9c7fb2fcee6ae93ad7fae9f267c87bc9b05d3f34))
+* **deps:** update dependency @fastify/static to v10.1.11 ([#671](https://github.com/wmfs/tymly-fastify-plugin/issues/671)) ([e00b94d](https://github.com/wmfs/tymly-fastify-plugin/commit/e00b94d3066baa2924e07409a4ed322feb569166))
+
 ## [1.138.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.137.1...v1.138.0) (2026-11-17)
 
 ### Build system dependencies :hammer:
