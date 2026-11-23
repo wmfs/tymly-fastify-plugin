@@ -1,3 +1,9 @@
+## [1.140.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.139.0...v1.140.0) (2026-11-23)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency @fastify/jwt to v10.2.8 ([#676](https://github.com/wmfs/tymly-fastify-plugin/issues/676)) ([d0de616](https://github.com/wmfs/tymly-fastify-plugin/commit/d0de616c59d6e316723bfd5e722666f5362429fa))
+
 ## [1.139.0](https://github.com/wmfs/tymly-fastify-plugin/compare/v1.138.0...v1.139.0) (2026-11-18)
 
 ### Tests :alembic:
